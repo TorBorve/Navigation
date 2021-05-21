@@ -106,7 +106,7 @@ find_package(catkin REQUIRED COMPONENTS
 catkin_package(
 #  INCLUDE_DIRS include
 #  LIBRARIES path_tracking
-#  CATKIN_DEPENDS geometry_msgs nav_msgs roscpp rospy
+   CATKIN_DEPENDS geometry_msgs nav_msgs roscpp rospy
 #  DEPENDS system_lib
 )
 
@@ -117,7 +117,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -150,6 +150,9 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+
+add_executable(main src/main.cpp src/PathTracker.cpp)
+target_link_libraries(main ${catkin_LIBRARIES})
 
 #############
 ## Install ##
