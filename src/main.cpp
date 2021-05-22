@@ -11,6 +11,7 @@ int main(int argc, char** argv){
     string brakeTopic = "brake_cmd";
     string steeringTopic = "steering_cmd";
     string odomTopic = "odom";
+    string pathTopic = "path";
 
     ros::Rate loopRate = 10;
     while(ros::ok()){
