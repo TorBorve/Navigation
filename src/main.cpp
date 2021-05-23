@@ -7,12 +7,9 @@ using namespace std;
 int main(int argc, char** argv){
     cout << "main.cpp\n";
     ros::init(argc, argv, "path_tracking");
-    string throttleTopic = "throttle_cmd";
-    string brakeTopic = "brake_cmd";
-    string steeringTopic = "steering_cmd";
-    string odomTopic = "odom";
-    string pathTopic = "path";
+    ros::NodeHandle pn{"~"};
 
+    Stanley stan{&pn};
     ros::Rate loopRate = 10;
     while(ros::ok()){
         ros::spinOnce();

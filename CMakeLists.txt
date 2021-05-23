@@ -151,7 +151,7 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
-add_executable(main src/main.cpp src/PathTracker.cpp)
+add_executable(main src/main.cpp src/PathTracker.cpp src/utilities.cpp)
 target_link_libraries(main ${catkin_LIBRARIES})
 
 #############

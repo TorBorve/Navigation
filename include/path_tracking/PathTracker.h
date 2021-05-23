@@ -25,3 +25,11 @@ protected:
     virtual void callbackOdom(const nav_msgs::Odometry::ConstPtr& msg) = 0;
     virtual void callbackPath(const nav_msgs::Path::ConstPtr& msg);
 };
+
+class Stanley : public PathTracker {
+public:
+    Stanley(ros::NodeHandle* pn); 
+private:
+    void callbackOdom(const nav_msgs::Odometry::ConstPtr& msg) override;
+    double yawError(const geometry_msgs::Quaternion& quat, unsigned int closest);
+};
