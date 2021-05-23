@@ -20,7 +20,7 @@ protected:
     ros::Subscriber odomSub;
     ros::Subscriber pathSub;
 
-    nav_msgs::Path::ConstPtr path_msg;
+    nav_msgs::Path* path_msg;
 
     virtual void callbackOdom(const nav_msgs::Odometry::ConstPtr& msg) = 0;
     virtual void callbackPath(const nav_msgs::Path::ConstPtr& msg);
@@ -28,7 +28,10 @@ protected:
 
 class Stanley : public PathTracker {
 public:
-    Stanley(ros::NodeHandle* pn); 
+    Stanley(ros::NodeHandle* pn);
+    ~Stanley(){
+        delete path_msg;
+    } 
 private:
     void callbackOdom(const nav_msgs::Odometry::ConstPtr& msg) override;
     double yawError(const geometry_msgs::Quaternion& quat, unsigned int closest);

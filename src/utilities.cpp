@@ -6,7 +6,7 @@
 namespace utilities {
 
 double getYaw(const geometry_msgs::Quaternion& quat){
-    tf2::Quaternion q{quat.x, quat.y, quat.z, quat.z};
+    tf2::Quaternion q{quat.x, quat.y, quat.z, quat.w};
     tf2::Matrix3x3 mat{q};
     double roll, pitch, yaw;
     mat.getRPY(roll, pitch, yaw);
