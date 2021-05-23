@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- launch stanley path tracking algorithm -->
+    <node pkg="path_tracking" type="main" name="path_tracking" output="screen">
+        <!-- load params from yaml file -->
+        <rosparam command="load" file="$(find path_tracking)/params/stanley.yaml" />
+    </node>
+</launch>
