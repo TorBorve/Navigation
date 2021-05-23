@@ -1,0 +1,16 @@
+# parmeter for stanley class.
+
+#Topic to publish throttle value
+throttleTopic: "throttle_cmd"
+
+#Topic to publish brake value
+brakeTopic: "brake_cmd"
+
+#Topic to publish steering angle
+steeringTopic: "steering_cmd"
+
+#Topic where odom should subscribe
+odomTopic: "odom"
+
+#Topic where path should subscribe
+pathTopic: "path"
