@@ -50,7 +50,7 @@ void Stanley::callbackOdom(const nav_msgs::Odometry::ConstPtr& msg){
     if (path_msg->poses.size() < 2){
         return;
     }
-    constexpr double Kp = -0.1;
+    constexpr double Kp = -0.5;
     unsigned int closest = utilities::closetPoint(msg->pose.pose.position, path_msg->poses);
     if (closest >= path_msg->poses.size()-1){
         closest = path_msg->poses.size() - 2;
@@ -65,7 +65,7 @@ void Stanley::callbackOdom(const nav_msgs::Odometry::ConstPtr& msg){
     std_msgs::Float64 temp;
     temp.data = AUDIBOT_STEERING_RATIO * steeringAngle;
     steeringPub.publish(temp);
-    temp.data = 0.2;
+    temp.data = 0.1;
     throttlePub.publish(temp);
 }
 

@@ -10,7 +10,7 @@ int main(int argc, char** argv){
     ros::NodeHandle pn{"~"};
 
     Stanley stan{&pn};
-    ros::Rate loopRate = 10;
+    ros::Rate loopRate = 40;
     while(ros::ok()){
         ros::spinOnce();
         loopRate.sleep();
