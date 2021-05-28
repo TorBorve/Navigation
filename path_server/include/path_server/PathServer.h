@@ -6,18 +6,29 @@
 // -recording and saving path
 
 #include <nav_msgs/Path.h>
+#include <nav_msgs/Odometry.h>
 #include <ros/ros.h> 
-
-// void fun(){
-//     PathServer ps{"jan", "nei", PathServer::Command::LOAD, 2, "Wjn"};
-// }
 
 class PathServer {
 public:
+    using UpdateFunc = bool (PathServer::*)();
     enum class Command {LOAD, SAVE, RECORD};
-    PathServer();
+    PathServer(ros::NodeHandle* pn);
+
+    bool update();
 private:
+    void pathCallback(const nav_msgs::Path::ConstPtr& msg);
+    void odomCallback(const nav_msgs::Odometry::ConstPtr& msg);
+    bool saveUpdate();
+    bool loadUpdate();
+    bool recordUpdate();
+
     ros::Publisher pathPub;
     ros::Subscriber pathSub;
+    ros::Subscriber odomSub;
     nav_msgs::Path path;
+
+    double resolution;
+    std::string filename;
+    UpdateFunc fp;
 };

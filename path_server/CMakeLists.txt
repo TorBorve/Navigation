@@ -115,7 +115,7 @@ catkin_package(
 ## Specify additional locations of header files
 ## Your package locations should be listed before other locations
 include_directories(
-# include
+  include
   ${catkin_INCLUDE_DIRS}
 )
 
@@ -148,6 +148,9 @@ include_directories(
 # target_link_libraries(${PROJECT_NAME}_node
 #   ${catkin_LIBRARIES}
 # )
+
+add_executable(path_server src/main.cpp src/PathServer.cpp)
+target_link_libraries(path_server ${catkin_LIBRARIES})
 
 #############
 ## Install ##
