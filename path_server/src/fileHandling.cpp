@@ -51,6 +51,7 @@ namespace file{
 
 void readHeader(std::ifstream& inFile, std_msgs::Header& header){
     std::string word;
+    uint32_t num;
     double dub;
     inFile >> word; 
     LOAD_CHECK(word, "header:");
@@ -59,12 +60,20 @@ void readHeader(std::ifstream& inFile, std_msgs::Header& header){
     inFile >> header.seq;
     inFile >> word;
     LOAD_CHECK(word, "stamp:");
-    inFile >> dub;
-    header.stamp.sec = static_cast<int>(dub);
-    header.stamp.nsec = dub - static_cast<int>(dub);
-    inFile >> word;
+    inFile >> num;
+    header.stamp.sec = num;
+    inFile.get();
+    inFile >> num;
+    header.stamp.nsec = num;
+    // has to check if frame_id = "" this can cause problems later
+    getline(inFile, word); // read rest of previous line
+    getline(inFile, word); // read frame_id line
+    std::stringstream ss{word};
+    ss >> word;
     LOAD_CHECK(word, "frame_id:");
-    inFile >> header.frame_id;
+    if (!ss.eof()){
+        ss >> header.frame_id;
+    }
 }
 
 void readPosition(std::ifstream& inFile, geometry_msgs::Point& point){
@@ -130,11 +139,12 @@ void loadPath(nav_msgs::Path& path, std::string filename){
     LOAD_CHECK(word, "poses[]");
     unsigned int poseCount = 0;
     while(inFile >> word){
-        LOAD_CHECK(word, "pose[" + std::to_string(poseCount) + "]");
+        LOAD_CHECK(word, "poses[" + std::to_string(poseCount) + "]:");
         geometry_msgs::PoseStamped ps;
         readHeader(inFile,ps.header);
         readPose(inFile, ps.pose);
         path.poses.push_back(ps);
+        poseCount++;
     }
     if (inFile.fail()){
         ROS_ERROR_STREAM("Error loading path from " << filename);
