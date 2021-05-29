@@ -3,10 +3,9 @@
 
 #include <string>
 
-double distSqrd(const nav_msgs::Path& path, const nav_msgs::Odometry& odom){
-    geometry_msgs::Point x = path.poses[path.poses.size()-1].pose.position;
-    return distSqrd(x, odom.pose.pose.position);
-}
+// double distSqrd(const nav_msgs::Path& path, const nav_msgs::Odometry& odom){
+//     return distSqrd(path.poses.back().pose.position, odom.pose.pose.position);
+// }
 
 double distSqrd(const geometry_msgs::Point& p1, const geometry_msgs::Point& p2){
     return (p2.x-p1.x)*(p2.x-p1.x) + (p2.y-p1.y)*(p2.y-p1.y) + (p2.z-p1.z)*(p2.z-p1.z);
@@ -51,10 +50,10 @@ void PathServer::odomCallback(const nav_msgs::Odometry::ConstPtr& msg){
     if (path.poses.size() == 0){
         path.header = msg->header;
         path.poses.push_back(toPoseStamped(*msg));
-    } //else if(distSqrd(path, *msg) > resolution*resolution){
-    //     path.poses.push_back(toPoseStamped(*msg));
-    //     pathPub.publish(path);
-    // }
+    } else if(distSqrd(path.poses.back().pose.position, msg->pose.pose.position) > resolution*resolution){
+        path.poses.push_back(toPoseStamped(*msg));
+        pathPub.publish(path);
+    }
 }
 
 bool PathServer::update(){

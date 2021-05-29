@@ -149,7 +149,7 @@ include_directories(
 #   ${catkin_LIBRARIES}
 # )
 
-add_executable(path_server src/main.cpp src/PathServer.cpp)
+add_executable(path_server src/main.cpp src/PathServer.cpp src/fileHandling.cpp)
 target_link_libraries(path_server ${catkin_LIBRARIES})
 
 #############
