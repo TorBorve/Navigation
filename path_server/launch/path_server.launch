@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- launch path_server node with params -->
+    <node pkg="path_server" type="path_server" name="path_server" output="screen">
+        <rosparam command="load" file="$(find path_server)/params/path_server.yaml" />
+    </node>
+</launch>

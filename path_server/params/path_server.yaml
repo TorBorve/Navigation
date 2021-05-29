@@ -1,0 +1,9 @@
+command: "load"
+
+filename: "myPath.txt"
+
+pathTopic: "path"
+
+odomTopic: "odom"
+
+resolution: 1.0

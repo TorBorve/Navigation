@@ -3,12 +3,13 @@
 
 #include <string>
 
-// double distSqrd(const nav_msgs::Path& path, const nav_msgs::Odometry& odom){
-//     return distSqrd(path.poses.back().pose.position, odom.pose.pose.position);
-// }
 
 double distSqrd(const geometry_msgs::Point& p1, const geometry_msgs::Point& p2){
     return (p2.x-p1.x)*(p2.x-p1.x) + (p2.y-p1.y)*(p2.y-p1.y) + (p2.z-p1.z)*(p2.z-p1.z);
+}
+
+double distSqrd(const nav_msgs::Path& path, const nav_msgs::Odometry& odom){
+    return distSqrd(path.poses.back().pose.position, odom.pose.pose.position);
 }
 
 inline geometry_msgs::PoseStamped toPoseStamped(const nav_msgs::Odometry& odom){
@@ -18,15 +19,17 @@ inline geometry_msgs::PoseStamped toPoseStamped(const nav_msgs::Odometry& odom){
     return ps;
 }   
 
-PathServer::PathServer(ros::NodeHandle* pn){
+PathServer::PathServer(ros::NodeHandle* pn)
+    : filename{pn->param<std::string>("filename", "myPath.txt")},
+    resolution{pn->param<double>("resolution", 1.0)}
+{
     std::string command = pn->param<std::string>("command", "not specified");
-    filename = pn->param<std::string>("filename", "myPath.txt");
-    std::string pathTopic = pn->param<std::string>("path_topic", "path");
-    std::string odomTopic = pn->param<std::string>("odom_topic", "odom");
+    std::string pathTopic = pn->param<std::string>("pathTopic", "path");
+    std::string odomTopic = pn->param<std::string>("odomTopic", "odom");
 
     ros::NodeHandle nh{};
     if (command == "load"){
-        // loadPath();
+        file::readPath(path, filename);
         pathPub = nh.advertise<nav_msgs::Path>(pathTopic, 1);
         fp = &PathServer::loadUpdate;
     } else if (command == "save"){
@@ -50,7 +53,7 @@ void PathServer::odomCallback(const nav_msgs::Odometry::ConstPtr& msg){
     if (path.poses.size() == 0){
         path.header = msg->header;
         path.poses.push_back(toPoseStamped(*msg));
-    } else if(distSqrd(path.poses.back().pose.position, msg->pose.pose.position) > resolution*resolution){
+    } else if(distSqrd(path, *msg) > resolution*resolution){
         path.poses.push_back(toPoseStamped(*msg));
         pathPub.publish(path);
     }
