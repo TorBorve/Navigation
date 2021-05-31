@@ -1,6 +1,6 @@
 command: "load"
 
-filename: "myPath.txt"
+filename: "myRecorded1.txt"
 
 pathTopic: "path"
 

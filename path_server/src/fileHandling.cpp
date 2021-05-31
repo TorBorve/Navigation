@@ -145,6 +145,8 @@ namespace file{
         if (!inFile){
             throw std::runtime_error{"Could not open file " + filename};
         }
+        // resest path message if previously added poses.
+        path = nav_msgs::Path{};
         std::string word;
         double dub;
         // get header:

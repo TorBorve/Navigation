@@ -46,10 +46,10 @@ double crossTrackError(const geometry_msgs::Point& vehicle, const geometry_msgs:
 }
 
 double velocity(const nav_msgs::Odometry& odom){
-    return velocity(odom.twist.twist.linear);
+    return length(odom.twist.twist.linear);
 }
 
-double velocity(const geometry_msgs::Vector3& vec){
+double length(const geometry_msgs::Vector3& vec){
     return sqrt(vec.x*vec.x + vec.y*vec.y + vec.z*vec.z);
 }
 

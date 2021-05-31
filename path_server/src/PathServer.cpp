@@ -85,7 +85,7 @@ bool PathServer::recordUpdate(){
     static auto lastSave = ros::Time::now();
     ros::Duration elapsed = ros::Time::now() - lastSave;
     if (elapsed.toSec() >= saveInterval){
-        // savePath();
+        file::savePath(path, filename);
         lastSave = ros::Time::now();
     }
     return false;
