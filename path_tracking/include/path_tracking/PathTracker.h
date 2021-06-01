@@ -1,5 +1,3 @@
-/// fix looping behaviour. next index must be >= current index?
-
 #pragma once
 
 #include <ros/ros.h>

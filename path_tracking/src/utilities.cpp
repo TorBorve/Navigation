@@ -53,4 +53,13 @@ double length(const geometry_msgs::Vector3& vec){
     return sqrt(vec.x*vec.x + vec.y*vec.y + vec.z*vec.z);
 }
 
+double validAngle(double angle){
+    if (angle > M_PI){
+        angle-= 2*M_PI;
+    } else if (angle < -M_PI){
+        angle += 2*M_PI;
+    }
+    return angle;
+}
+
 }

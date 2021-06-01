@@ -52,4 +52,8 @@ double velocity(const nav_msgs::Odometry& odom);
 /// @param[in] vec 3D vector.
 /// @return length of 3D vector.
 double length(const geometry_msgs::Vector3& vec);
+
+/// @brief makes sure angle is in interval [-PI, PI]
+double validAngle(double angle);
+
 }

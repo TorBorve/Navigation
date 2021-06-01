@@ -59,5 +59,5 @@ double Stanley::yawError(const geometry_msgs::Quaternion& quat, unsigned int clo
     double carYaw = utilities::getYaw(quat);
     double pathYaw = utilities::getPathYaw(closest, path_msg.poses);
     ROS_INFO_STREAM("car: " << 180/M_PI*carYaw << ", path: " << 180/M_PI*pathYaw);
-    return pathYaw - carYaw;
+    return utilities::validAngle(pathYaw - carYaw);
 }
