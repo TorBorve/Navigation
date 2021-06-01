@@ -1,9 +1,0 @@
-command: "load"
-
-filename: "myRecorded1.txt"
-
-pathTopic: "path"
-
-odomTopic: "odom"
-
-resolution: 1.0
