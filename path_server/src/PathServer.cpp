@@ -32,16 +32,25 @@ PathServer::PathServer(ros::NodeHandle* pn)
         file::readPath(path, filename);
         pathPub = nh.advertise<nav_msgs::Path>(pathTopic, 1);
         fp = &PathServer::loadUpdate;
+        ROS_INFO("PathServer initialized with load command.");
     } else if (command == "save"){
         pathSub = nh.subscribe(pathTopic,1, &PathServer::pathCallback, this);
         fp = &PathServer::saveUpdate;
+        ROS_INFO("PathServer initialized with save command.");
     } else if (command == "record"){
         fp = &PathServer::recordUpdate;
         odomSub = nh.subscribe(odomTopic, 10, &PathServer::odomCallback, this);
         pathPub = nh.advertise<nav_msgs::Path>(pathTopic, 1);
+        ROS_INFO("PathServer initialized with record command.");
     } else {
         ROS_ERROR_STREAM("invalid command: " << command << "\nValid commands are: load, save, record");
         throw std::runtime_error{"invalid command: " + command};
+    }
+}
+
+PathServer::~PathServer(){
+    if (fp = &PathServer::recordUpdate){
+        file::savePath(path, filename);
     }
 }
 
@@ -70,13 +79,8 @@ bool PathServer::saveUpdate(){
 }
 
 bool PathServer::loadUpdate(){
-    constexpr unsigned int pubIntervel = 10;
-    static auto lastPub = ros::Time::now();
-    ros::Duration elapsed = ros::Time::now() - lastPub;
-    if (elapsed.toSec() >= pubIntervel){
-        pathPub.publish(path);
-        lastPub = ros::Time::now();
-    }
+    path.header.stamp = ros::Time::now();
+    pathPub.publish(path);
     return false;
 }
 

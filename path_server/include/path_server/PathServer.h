@@ -5,8 +5,7 @@
 // -saving a path to file.
 // -recording and saving path
 
-/// fix rviz offset bug
-/// fix stampe too old?? set new stamp when publishing??
+/// make saveupdate thread safe?
 
 #include <nav_msgs/Path.h>
 #include <nav_msgs/Odometry.h>
@@ -16,13 +15,15 @@
 class PathServer {
 public:
     using UpdateFunc = bool (PathServer::*)();
-    enum class Command {LOAD, SAVE, RECORD};
     
     /// @brief constructor for PathServer
     /// @param[in] pn pointer to private nodeHandle.
     PathServer(ros::NodeHandle* pn);
 
-    /// @brief update function for calling fp.
+    /// @brief destructor for PathServer.
+    ~PathServer();
+
+    /// @brief update function for calling fp. Should be used in spin once loop.
     /// @return true if finished else false.
     bool update();
 private:

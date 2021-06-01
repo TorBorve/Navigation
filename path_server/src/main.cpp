@@ -1,14 +1,8 @@
 #include "path_server/PathServer.h"
 
-/**
- * 
- * 
- * make event instead of updatefunc!!!!
- * 
-**/
-
 int main(int argc, char** argv){
     ros::init(argc, argv, "path_server");
+    ROS_INFO("path_server node initialized");
     ros::NodeHandle nh{"~"};
     PathServer pathServer{&nh};
     bool finished = false;
