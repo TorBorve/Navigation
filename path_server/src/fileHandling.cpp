@@ -43,9 +43,6 @@
 
 #include <fstream>
 
-    
-#define BASEDIR "/home/torb/catkin_ws/src/navigation/path_server/src/"
-
 #if 1
 #define READ_CHECK(lhs, rhs) \
     if(lhs != rhs){\
@@ -131,19 +128,19 @@ namespace file{
         readOrientation(inFile, pose.orientation);
     }
 
-    void savePath(const nav_msgs::Path& path, std::string filename){
-        std::ofstream outFile{BASEDIR + filename};
+    void savePath(const nav_msgs::Path& path, std::string filePath){
+        std::ofstream outFile{filePath};
         if (!outFile){
-            throw std::runtime_error{"Could not save file " + filename};
+            throw std::runtime_error{"Could not save file " + filePath};
         }
         
         outFile << path;
     }
 
-    void readPath(nav_msgs::Path& path, std::string filename){
-        std::ifstream inFile{BASEDIR + filename};
+    void readPath(nav_msgs::Path& path, std::string filePath){
+        std::ifstream inFile{filePath};
         if (!inFile){
-            throw std::runtime_error{"Could not open file " + filename};
+            throw std::runtime_error{"Could not open file " + filePath};
         }
         // resest path message if previously added poses.
         path = nav_msgs::Path{};

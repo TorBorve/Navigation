@@ -62,8 +62,8 @@ private:
     /// @brief minimum distance before adding point to path when recording.
     double resolution;
 
-    /// @brief filename for saving or reading path.
-    std::string filename;
+    /// @brief file path for saving or reading path.
+    std::string filePath;
 
     /// @brief function pointer to desired update function.
     UpdateFunc fp;

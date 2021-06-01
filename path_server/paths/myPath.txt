@@ -1,0 +1,50 @@
+header: 
+  seq: 69
+  stamp: 1622554967.735438878
+  frame_id: frame_id
+poses[]
+  poses[0]: 
+    header: 
+      seq: 69
+      stamp: 1622277861.888276134
+      frame_id: frame_id
+    pose: 
+      position: 
+        x: 1
+        y: 2
+        z: 3
+      orientation: 
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  poses[1]: 
+    header: 
+      seq: 69
+      stamp: 1622277861.888276134
+      frame_id: frame_id
+    pose: 
+      position: 
+        x: 1
+        y: 2
+        z: 3
+      orientation: 
+        x: 0
+        y: 0
+        z: 0
+        w: 1
+  poses[2]: 
+    header: 
+      seq: 0
+      stamp: 0.000000000
+      frame_id: 
+    pose: 
+      position: 
+        x: 0
+        y: 0
+        z: 0
+      orientation: 
+        x: 0
+        y: 0
+        z: 0
+        w: 1

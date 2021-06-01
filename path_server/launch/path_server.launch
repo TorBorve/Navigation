@@ -1,7 +1,17 @@
 <?xml version="1.0"?>
 <launch>
+    <arg name="command" default="load" />
+    <arg name="filePath" default="$(find path_server)/paths/myPath.txt" />
+    <arg name="pathTopic" default="path" />
+    <arg name="odomTopic" default="odom" />
+    <arg name="resolution" default="1.0" />
+
     <!-- launch path_server node with params -->
     <node pkg="path_server" type="path_server" name="path_server" output="screen">
-        <rosparam command="load" file="$(find path_server)/params/path_server.yaml" />
+        <param name="command" value="$(arg command)" />
+        <param name="filePath" value="$(arg filePath)" />
+        <param name="pathTopic" value="$(arg pathTopic)" />
+        <param name="odomTopic" value="$(arg odomTopic)" />
+        <param name="resolution" value="$(arg resolution)" />
     </node>
 </launch>

@@ -20,7 +20,7 @@ inline geometry_msgs::PoseStamped toPoseStamped(const nav_msgs::Odometry& odom){
 }   
 
 PathServer::PathServer(ros::NodeHandle* pn)
-    : filename{pn->param<std::string>("filename", "myPath.txt")},
+    : filePath{pn->param<std::string>("filePath", "myPath.txt")},
     resolution{pn->param<double>("resolution", 1.0)}
 {
     std::string command = pn->param<std::string>("command", "not specified");
@@ -29,7 +29,7 @@ PathServer::PathServer(ros::NodeHandle* pn)
 
     ros::NodeHandle nh{};
     if (command == "load"){
-        file::readPath(path, filename);
+        file::readPath(path, filePath);
         pathPub = nh.advertise<nav_msgs::Path>(pathTopic, 1);
         fp = &PathServer::loadUpdate;
         ROS_INFO("PathServer initialized with load command.");
@@ -50,7 +50,7 @@ PathServer::PathServer(ros::NodeHandle* pn)
 
 PathServer::~PathServer(){
     if (fp = &PathServer::recordUpdate){
-        file::savePath(path, filename);
+        file::savePath(path, filePath);
     }
 }
 
@@ -89,7 +89,7 @@ bool PathServer::recordUpdate(){
     static auto lastSave = ros::Time::now();
     ros::Duration elapsed = ros::Time::now() - lastSave;
     if (elapsed.toSec() >= saveInterval){
-        file::savePath(path, filename);
+        file::savePath(path, filePath);
         lastSave = ros::Time::now();
     }
     return false;
