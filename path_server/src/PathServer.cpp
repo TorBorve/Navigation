@@ -26,6 +26,7 @@ PathServer::PathServer(ros::NodeHandle* pn)
     std::string command = pn->param<std::string>("command", "not specified");
     std::string pathTopic = pn->param<std::string>("pathTopic", "path");
     std::string odomTopic = pn->param<std::string>("odomTopic", "odom");
+    std::string odomFrame = pn->param<std::string>("odomFrame", "odom");
 
     ros::NodeHandle nh{};
     if (command == "load"){
@@ -39,6 +40,7 @@ PathServer::PathServer(ros::NodeHandle* pn)
         ROS_INFO("PathServer initialized with save command.");
     } else if (command == "record"){
         fp = &PathServer::recordUpdate;
+        path.header.frame_id = odomFrame;
         odomSub = nh.subscribe(odomTopic, 10, &PathServer::odomCallback, this);
         pathPub = nh.advertise<nav_msgs::Path>(pathTopic, 1);
         ROS_INFO("PathServer initialized with record command.");
@@ -59,12 +61,8 @@ void PathServer::pathCallback(const nav_msgs::Path::ConstPtr& msg){
 }
 
 void PathServer::odomCallback(const nav_msgs::Odometry::ConstPtr& msg){
-    if (path.poses.size() == 0){
-        path.header = msg->header;
+    if (path.poses.size() == 0 || distSqrd(path, *msg) > resolution*resolution){
         path.poses.push_back(toPoseStamped(*msg));
-    } else if(distSqrd(path, *msg) > resolution*resolution){
-        path.poses.push_back(toPoseStamped(*msg));
-        pathPub.publish(path);
     }
 }
 
@@ -92,5 +90,7 @@ bool PathServer::recordUpdate(){
         file::savePath(path, filePath);
         lastSave = ros::Time::now();
     }
+    path.header.stamp = ros::Time::now();
+    pathPub.publish(path);
     return false;
 }

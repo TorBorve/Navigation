@@ -1,0 +1,4205 @@
+header: 
+  seq: 0
+  stamp: 76.423000000
+  frame_id: odom
+poses[]
+  poses[0]: 
+    header: 
+      seq: 8733
+      stamp: 174.846000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 3.26355
+        y: 0.0701428
+        z: -2.8011e-06
+      orientation: 
+        x: -6.45092e-08
+        y: 1.75696e-06
+        z: 0.0333835
+        w: -0.999443
+  poses[1]: 
+    header: 
+      seq: 10519
+      stamp: 210.566000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 4.2636
+        y: 0.00238169
+        z: -7.67689e-06
+      orientation: 
+        x: -2.39878e-06
+        y: 7.2166e-07
+        z: 0.0330577
+        w: -0.999453
+  poses[2]: 
+    header: 
+      seq: 10722
+      stamp: 214.627000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 5.26348
+        y: -0.0647728
+        z: -3.82419e-06
+      orientation: 
+        x: -2.11898e-07
+        y: -5.47913e-07
+        z: 0.0331692
+        w: -0.99945
+  poses[3]: 
+    header: 
+      seq: 10889
+      stamp: 217.966000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 6.26949
+        y: -0.0929542
+        z: -9.85325e-06
+      orientation: 
+        x: 5.39063e-07
+        y: -1.70278e-06
+        z: 0.0261681
+        w: -0.999658
+  poses[4]: 
+    header: 
+      seq: 11042
+      stamp: 221.027000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 7.26325
+        y: 0.0341213
+        z: -1.65683e-06
+      orientation: 
+        x: -1.24049e-07
+        y: -2.66505e-07
+        z: -0.00207223
+        w: -0.999998
+  poses[5]: 
+    header: 
+      seq: 11186
+      stamp: 223.907000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 8.2664
+        y: 0.0383043
+        z: -5.36163e-06
+      orientation: 
+        x: 3.6223e-07
+        y: -4.4115e-07
+        z: -0.00210452
+        w: -0.999998
+  poses[6]: 
+    header: 
+      seq: 11320
+      stamp: 226.586000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 9.27237
+        y: 0.04256
+        z: -3.05678e-06
+      orientation: 
+        x: -1.08979e-07
+        y: -5.55899e-07
+        z: -0.00213379
+        w: -0.999998
+  poses[7]: 
+    header: 
+      seq: 11446
+      stamp: 229.107000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 10.2737
+        y: 0.046855
+        z: -3.25979e-06
+      orientation: 
+        x: -1.55288e-07
+        y: -4.44506e-07
+        z: -0.00216068
+        w: -0.999998
+  poses[8]: 
+    header: 
+      seq: 11567
+      stamp: 231.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 11.2775
+        y: 0.0512072
+        z: -2.68026e-06
+      orientation: 
+        x: -1.33084e-07
+        y: 1.7933e-06
+        z: -0.00218677
+        w: -0.999998
+  poses[9]: 
+    header: 
+      seq: 11684
+      stamp: 233.866000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 12.2832
+        y: 0.0556265
+        z: -6.07031e-06
+      orientation: 
+        x: -4.40449e-07
+        y: -8.86451e-07
+        z: -0.00221204
+        w: -0.999998
+  poses[10]: 
+    header: 
+      seq: 11798
+      stamp: 236.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 13.2922
+        y: 0.0601033
+        z: -2.78138e-06
+      orientation: 
+        x: -1.26802e-07
+        y: 1.77375e-06
+        z: -0.00223667
+        w: -0.999997
+  poses[11]: 
+    header: 
+      seq: 11909
+      stamp: 238.366000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 14.2974
+        y: 0.064616
+        z: -3.08296e-06
+      orientation: 
+        x: -1.0925e-07
+        y: -5.48727e-07
+        z: -0.00226054
+        w: -0.999997
+  poses[12]: 
+    header: 
+      seq: 12018
+      stamp: 240.546000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 15.3049
+        y: 0.0691869
+        z: -3.3461e-06
+      orientation: 
+        x: -1.12463e-07
+        y: -5.5708e-07
+        z: -0.00228407
+        w: -0.999997
+  poses[13]: 
+    header: 
+      seq: 12125
+      stamp: 242.687000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 16.3114
+        y: 0.0737997
+        z: -3.24332e-06
+      orientation: 
+        x: -1.12489e-07
+        y: -5.37696e-07
+        z: -0.00230692
+        w: -0.999997
+  poses[14]: 
+    header: 
+      seq: 12230
+      stamp: 244.786000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 17.3124
+        y: 0.0784348
+        z: -7.34737e-06
+      orientation: 
+        x: -2.07924e-06
+        y: -1.79639e-06
+        z: -0.00232981
+        w: -0.999997
+  poses[15]: 
+    header: 
+      seq: 12333
+      stamp: 246.846000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 18.3131
+        y: 0.0830997
+        z: -2.3059e-06
+      orientation: 
+        x: -3.16233e-07
+        y: 1.54526e-06
+        z: -0.00235055
+        w: -0.999997
+  poses[16]: 
+    header: 
+      seq: 12390
+      stamp: 247.986000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 19.333
+        y: 0.0876908
+        z: -2.41187e-06
+      orientation: 
+        x: -1.10278e-07
+        y: -3.66348e-07
+        z: -0.00234225
+        w: -0.999997
+  poses[17]: 
+    header: 
+      seq: 12426
+      stamp: 248.707000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 20.3446
+        y: 0.0923025
+        z: -2.41112e-06
+      orientation: 
+        x: -1.10379e-07
+        y: -3.6608e-07
+        z: -0.0023376
+        w: -0.999997
+  poses[18]: 
+    header: 
+      seq: 12455
+      stamp: 249.286000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 21.3548
+        y: 0.0969243
+        z: -2.32503e-06
+      orientation: 
+        x: -3.27675e-07
+        y: 1.53722e-06
+        z: -0.00233424
+        w: -0.999997
+  poses[19]: 
+    header: 
+      seq: 12480
+      stamp: 249.786000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 22.3635
+        y: 0.101547
+        z: -1.73657e-06
+      orientation: 
+        x: -6.21459e-08
+        y: 1.66969e-06
+        z: -0.00233161
+        w: -0.999997
+  poses[20]: 
+    header: 
+      seq: 12503
+      stamp: 250.246000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 23.3996
+        y: 0.106297
+        z: -2.33188e-06
+      orientation: 
+        x: -3.31802e-07
+        y: 1.53448e-06
+        z: -0.00232906
+        w: -0.999997
+  poses[21]: 
+    header: 
+      seq: 12524
+      stamp: 250.666000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 24.4337
+        y: 0.111042
+        z: -1.73695e-06
+      orientation: 
+        x: -6.25863e-08
+        y: 1.66776e-06
+        z: -0.00232715
+        w: -0.999997
+  poses[22]: 
+    header: 
+      seq: 12543
+      stamp: 251.047000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 25.4427
+        y: 0.115671
+        z: -2.4628e-06
+      orientation: 
+        x: -1.20822e-07
+        y: -3.77542e-07
+        z: -0.00232513
+        w: -0.999997
+  poses[23]: 
+    header: 
+      seq: 12561
+      stamp: 251.406000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 26.4538
+        y: 0.120312
+        z: -2.33998e-06
+      orientation: 
+        x: -3.36264e-07
+        y: 1.53095e-06
+        z: -0.00232366
+        w: -0.999997
+  poses[24]: 
+    header: 
+      seq: 12578
+      stamp: 251.746000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 27.4642
+        y: 0.12495
+        z: -1.73758e-06
+      orientation: 
+        x: -6.32714e-08
+        y: 1.66553e-06
+        z: -0.00232238
+        w: -0.999997
+  poses[25]: 
+    header: 
+      seq: 12595
+      stamp: 252.086000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 28.525
+        y: 0.129818
+        z: -2.34405e-06
+      orientation: 
+        x: -3.38987e-07
+        y: 1.52937e-06
+        z: -0.00232089
+        w: -0.999997
+  poses[26]: 
+    header: 
+      seq: 12611
+      stamp: 252.406000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 29.5685
+        y: 0.134606
+        z: -2.34607e-06
+      orientation: 
+        x: -3.40123e-07
+        y: 1.52852e-06
+        z: -0.00231969
+        w: -0.999997
+  poses[27]: 
+    header: 
+      seq: 12626
+      stamp: 252.706000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 30.5857
+        y: 0.139275
+        z: -1.7379e-06
+      orientation: 
+        x: -6.3701e-08
+        y: 1.66385e-06
+        z: -0.00231876
+        w: -0.999997
+  poses[28]: 
+    header: 
+      seq: 12641
+      stamp: 253.006000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 31.6399
+        y: 0.144112
+        z: -2.34996e-06
+      orientation: 
+        x: -3.42127e-07
+        y: 1.52686e-06
+        z: -0.0023176
+        w: -0.999997
+  poses[29]: 
+    header: 
+      seq: 12655
+      stamp: 253.287000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 32.6603
+        y: 0.148793
+        z: -2.46328e-06
+      orientation: 
+        x: -1.21345e-07
+        y: -3.77062e-07
+        z: -0.00231658
+        w: -0.999997
+  poses[30]: 
+    header: 
+      seq: 12669
+      stamp: 253.567000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 33.688
+        y: 0.153517
+        z: -3.30178e-06
+      orientation: 
+        x: -1.12539e-07
+        y: -5.51253e-07
+        z: -0.00231261
+        w: -0.999997
+  poses[31]: 
+    header: 
+      seq: 12683
+      stamp: 253.846000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 34.6977
+        y: 0.158178
+        z: -2.82066e-06
+      orientation: 
+        x: -1.32159e-07
+        y: 1.75745e-06
+        z: -0.00231509
+        w: -0.999997
+  poses[32]: 
+    header: 
+      seq: 12698
+      stamp: 254.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 35.7675
+        y: 0.163123
+        z: -2.7611e-06
+      orientation: 
+        x: -1.30964e-07
+        y: 1.76888e-06
+        z: -0.00231781
+        w: -0.999997
+  poses[33]: 
+    header: 
+      seq: 12713
+      stamp: 254.446000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 36.8213
+        y: 0.168
+        z: -2.70613e-06
+      orientation: 
+        x: -1.29956e-07
+        y: 1.77933e-06
+        z: -0.00232053
+        w: -0.999997
+  poses[34]: 
+    header: 
+      seq: 12728
+      stamp: 254.746000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 37.8592
+        y: 0.17281
+        z: -2.63759e-06
+      orientation: 
+        x: -1.28531e-07
+        y: 1.79254e-06
+        z: -0.00232323
+        w: -0.999997
+  poses[35]: 
+    header: 
+      seq: 12743
+      stamp: 255.046000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 38.8776
+        y: 0.258537
+        z: -4.1228e-06
+      orientation: 
+        x: 4.79872e-07
+        y: -1.04848e-06
+        z: -0.0161778
+        w: -0.999869
+  poses[36]: 
+    header: 
+      seq: 12758
+      stamp: 255.346000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 39.8662
+        y: 0.478375
+        z: -5.85098e-06
+      orientation: 
+        x: 4.9847e-07
+        y: -1.12991e-06
+        z: -0.0459627
+        w: -0.998943
+  poses[37]: 
+    header: 
+      seq: 12774
+      stamp: 255.666000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 40.8867
+        y: 0.771726
+        z: -3.19652e-06
+      orientation: 
+        x: 3.37426e-07
+        y: -5.73938e-07
+        z: -0.0771574
+        w: -0.997019
+  poses[38]: 
+    header: 
+      seq: 12790
+      stamp: 255.987000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 41.8724
+        y: 1.12256
+        z: -1.05716e-05
+      orientation: 
+        x: 4.27251e-06
+        y: -4.04215e-07
+        z: -0.107818
+        w: -0.994171
+  poses[39]: 
+    header: 
+      seq: 12806
+      stamp: 256.306000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 42.8119
+        y: 1.52288
+        z: -1.58228e-05
+      orientation: 
+        x: 7.51156e-07
+        y: -3.15379e-06
+        z: -0.137635
+        w: -0.990483
+  poses[40]: 
+    header: 
+      seq: 12822
+      stamp: 256.626000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 43.7125
+        y: 1.97174
+        z: -3.01829e-06
+      orientation: 
+        x: 1.68275e-07
+        y: -7.16269e-07
+        z: -0.166894
+        w: -0.985975
+  poses[41]: 
+    header: 
+      seq: 12839
+      stamp: 256.966000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 44.6219
+        y: 2.4959
+        z: -7.2329e-06
+      orientation: 
+        x: 1.06877e-06
+        y: -1.30578e-06
+        z: -0.19726
+        w: -0.980351
+  poses[42]: 
+    header: 
+      seq: 12856
+      stamp: 257.306000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 45.481
+        y: 3.06376
+        z: -6.48443e-06
+      orientation: 
+        x: 1.22285e-07
+        y: -1.32734e-06
+        z: -0.226862
+        w: -0.973927
+  poses[43]: 
+    header: 
+      seq: 12873
+      stamp: 257.647000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 46.2913
+        y: 3.67229
+        z: -6.17491e-06
+      orientation: 
+        x: 8.6397e-07
+        y: -7.90106e-07
+        z: -0.255785
+        w: -0.966734
+  poses[44]: 
+    header: 
+      seq: 12891
+      stamp: 258.006000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 47.0908
+        y: 4.35214
+        z: -2.28369e-06
+      orientation: 
+        x: 4.42632e-07
+        y: -4.25045e-07
+        z: -0.285487
+        w: -0.958382
+  poses[45]: 
+    header: 
+      seq: 12909
+      stamp: 258.366000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 47.8313
+        y: 5.06415
+        z: -2.4928e-06
+      orientation: 
+        x: 4.29406e-07
+        y: -4.30394e-07
+        z: -0.3143
+        w: -0.949324
+  poses[46]: 
+    header: 
+      seq: 12927
+      stamp: 258.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 48.5169
+        y: 5.80746
+        z: -2.28493e-06
+      orientation: 
+        x: 4.36009e-07
+        y: -3.90881e-07
+        z: -0.342383
+        w: -0.93956
+  poses[47]: 
+    header: 
+      seq: 12946
+      stamp: 259.106000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 49.1792
+        y: 6.61885
+        z: -3.00195e-06
+      orientation: 
+        x: 4.9156e-07
+        y: -4.34851e-07
+        z: -0.37115
+        w: -0.928573
+  poses[48]: 
+    header: 
+      seq: 12965
+      stamp: 259.486000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 49.7804
+        y: 7.45494
+        z: -2.49278e-06
+      orientation: 
+        x: 4.21477e-07
+        y: -3.93825e-07
+        z: -0.399092
+        w: -0.916911
+  poses[49]: 
+    header: 
+      seq: 12984
+      stamp: 259.866000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 50.3172
+        y: 8.30427
+        z: -3.07904e-06
+      orientation: 
+        x: 4.88758e-07
+        y: -4.18223e-07
+        z: -0.426002
+        w: -0.904722
+  poses[50]: 
+    header: 
+      seq: 13004
+      stamp: 260.266000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 50.8189
+        y: 9.21482
+        z: -2.46508e-06
+      orientation: 
+        x: 4.24868e-07
+        y: -3.66525e-07
+        z: -0.453452
+        w: -0.891281
+  poses[51]: 
+    header: 
+      seq: 13024
+      stamp: 260.666000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 51.2565
+        y: 10.1375
+        z: -3.93101e-06
+      orientation: 
+        x: 7.26624e-07
+        y: -3.72911e-07
+        z: -0.480004
+        w: -0.877266
+  poses[52]: 
+    header: 
+      seq: 13045
+      stamp: 261.086000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 51.6463
+        y: 11.1071
+        z: -5.69279e-06
+      orientation: 
+        x: 1.11327e-06
+        y: -6.19524e-07
+        z: -0.50673
+        w: -0.862105
+  poses[53]: 
+    header: 
+      seq: 13066
+      stamp: 261.507000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 51.9709
+        y: 12.0825
+        z: -3.45636e-06
+      orientation: 
+        x: 1.0261e-06
+        y: 3.77304e-07
+        z: -0.53255
+        w: -0.846399
+  poses[54]: 
+    header: 
+      seq: 13087
+      stamp: 261.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 52.2299
+        y: 13.0499
+        z: -3.61923e-06
+      orientation: 
+        x: 5.67605e-07
+        y: -3.74335e-07
+        z: -0.557239
+        w: -0.830352
+  poses[55]: 
+    header: 
+      seq: 13109
+      stamp: 262.366000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 52.4362
+        y: 14.0581
+        z: -5.97159e-06
+      orientation: 
+        x: 1.11884e-06
+        y: -5.74e-07
+        z: -0.582104
+        w: -0.813115
+  poses[56]: 
+    header: 
+      seq: 13131
+      stamp: 262.806000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 52.587
+        y: 15.0527
+        z: 1.46716e-06
+      orientation: 
+        x: -7.35613e-07
+        y: -1.60251e-07
+        z: -0.604666
+        w: -0.796479
+  poses[57]: 
+    header: 
+      seq: 13154
+      stamp: 263.267000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 52.851
+        y: 16.044
+        z: -3.17147e-06
+      orientation: 
+        x: 2.31198e-07
+        y: -4.81272e-07
+        z: -0.60601
+        w: -0.795457
+  poses[58]: 
+    header: 
+      seq: 13177
+      stamp: 263.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 53.1166
+        y: 17.0086
+        z: -1.46561e-05
+      orientation: 
+        x: 1.465e-06
+        y: -2.2886e-06
+        z: -0.606015
+        w: -0.795453
+  poses[59]: 
+    header: 
+      seq: 13201
+      stamp: 264.206000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 53.3887
+        y: 17.9965
+        z: -2.76677e-06
+      orientation: 
+        x: -1.16607e-06
+        y: 1.33545e-06
+        z: -0.606018
+        w: -0.795451
+  poses[60]: 
+    header: 
+      seq: 13225
+      stamp: 264.687000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 53.6556
+        y: 18.9656
+        z: -1.88561e-06
+      orientation: 
+        x: 7.03815e-07
+        y: 8.90379e-07
+        z: -0.606019
+        w: -0.79545
+  poses[61]: 
+    header: 
+      seq: 13250
+      stamp: 265.186000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 53.9265
+        y: 19.9495
+        z: -3.36748e-06
+      orientation: 
+        x: 2.47436e-07
+        y: -5.14291e-07
+        z: -0.606023
+        w: -0.795447
+  poses[62]: 
+    header: 
+      seq: 13275
+      stamp: 265.686000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 54.1922
+        y: 20.9141
+        z: -3.5403e-06
+      orientation: 
+        x: 2.59381e-07
+        y: -3.59134e-07
+        z: -0.606009
+        w: -0.795458
+  poses[63]: 
+    header: 
+      seq: 13301
+      stamp: 266.206000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 54.4626
+        y: 21.8953
+        z: -7.00393e-06
+      orientation: 
+        x: 2.56425e-07
+        y: -1.23538e-06
+        z: -0.60599
+        w: -0.795472
+  poses[64]: 
+    header: 
+      seq: 13328
+      stamp: 266.746000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 54.7371
+        y: 22.8913
+        z: -1.07221e-05
+      orientation: 
+        x: 2.74015e-06
+        y: 2.02539e-06
+        z: -0.605971
+        w: -0.795487
+  poses[65]: 
+    header: 
+      seq: 13355
+      stamp: 267.287000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.0059
+        y: 23.8665
+        z: -3.58023e-06
+      orientation: 
+        x: -8.58337e-07
+        y: -7.03913e-07
+        z: -0.605952
+        w: -0.795501
+  poses[66]: 
+    header: 
+      seq: 13383
+      stamp: 267.846000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.2779
+        y: 24.8528
+        z: -1.05501e-05
+      orientation: 
+        x: 3.36419e-07
+        y: -1.75284e-06
+        z: -0.605932
+        w: -0.795516
+  poses[67]: 
+    header: 
+      seq: 13412
+      stamp: 268.426000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.5525
+        y: 25.8485
+        z: -5.24021e-06
+      orientation: 
+        x: 3.75451e-07
+        y: -7.69677e-07
+        z: -0.605912
+        w: -0.795531
+  poses[68]: 
+    header: 
+      seq: 13441
+      stamp: 269.006000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.7013
+        y: 26.8472
+        z: -6.26111e-06
+      orientation: 
+        x: 2.33417e-06
+        y: -1.21478e-07
+        z: -0.621966
+        w: -0.783045
+  poses[69]: 
+    header: 
+      seq: 13471
+      stamp: 269.606000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.7438
+        y: 27.8654
+        z: -5.43298e-06
+      orientation: 
+        x: 7.86623e-07
+        y: -3.68627e-07
+        z: -0.645151
+        w: -0.764055
+  poses[70]: 
+    header: 
+      seq: 13502
+      stamp: 270.227000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.7341
+        y: 28.8862
+        z: -2.29823e-06
+      orientation: 
+        x: -1.54738e-06
+        y: -1.05234e-06
+        z: -0.666581
+        w: -0.745432
+  poses[71]: 
+    header: 
+      seq: 13534
+      stamp: 270.866000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.8416
+        y: 29.8963
+        z: -2.26444e-06
+      orientation: 
+        x: -1.32937e-06
+        y: 1.31629e-06
+        z: -0.667163
+        w: -0.744912
+  poses[72]: 
+    header: 
+      seq: 13567
+      stamp: 271.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.954
+        y: 30.913
+        z: -2.75182e-06
+      orientation: 
+        x: -1.27111e-06
+        y: 1.24102e-06
+        z: -0.667164
+        w: -0.744911
+  poses[73]: 
+    header: 
+      seq: 13601
+      stamp: 272.206000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.0668
+        y: 31.9338
+        z: -2.66102e-06
+      orientation: 
+        x: 1.54345e-08
+        y: -5.68159e-07
+        z: -0.66716
+        w: -0.744915
+  poses[74]: 
+    header: 
+      seq: 13635
+      stamp: 272.886000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.1767
+        y: 32.9284
+        z: -2.00342e-06
+      orientation: 
+        x: 1.13801e-07
+        y: -4.03429e-07
+        z: -0.667151
+        w: -0.744923
+  poses[75]: 
+    header: 
+      seq: 13670
+      stamp: 273.586000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.2871
+        y: 33.9262
+        z: -2.13273e-06
+      orientation: 
+        x: 1.20888e-07
+        y: -4.44735e-07
+        z: -0.667141
+        w: -0.744932
+  poses[76]: 
+    header: 
+      seq: 13706
+      stamp: 274.306000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.3977
+        y: 34.9259
+        z: -2.71929e-06
+      orientation: 
+        x: 1.37304e-08
+        y: -5.47115e-07
+        z: -0.66713
+        w: -0.744942
+  poses[77]: 
+    header: 
+      seq: 13743
+      stamp: 275.046000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.5084
+        y: 35.9264
+        z: -2.88633e-06
+      orientation: 
+        x: 4.28363e-08
+        y: -6.06028e-07
+        z: -0.667118
+        w: -0.744952
+  poses[78]: 
+    header: 
+      seq: 13781
+      stamp: 275.806000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.6191
+        y: 36.9268
+        z: -5.99705e-06
+      orientation: 
+        x: 1.44283e-07
+        y: -1.32223e-06
+        z: -0.667106
+        w: -0.744963
+  poses[79]: 
+    header: 
+      seq: 13820
+      stamp: 276.586000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.7298
+        y: 37.9261
+        z: -2.90159e-06
+      orientation: 
+        x: 1.26475e-07
+        y: -5.66558e-07
+        z: -0.667094
+        w: -0.744974
+  poses[80]: 
+    header: 
+      seq: 13860
+      stamp: 277.386000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.8403
+        y: 38.9235
+        z: -2.00233e-06
+      orientation: 
+        x: 1.16935e-07
+        y: -4.0742e-07
+        z: -0.667081
+        w: -0.744985
+  poses[81]: 
+    header: 
+      seq: 13901
+      stamp: 278.206000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.9505
+        y: 39.9183
+        z: -2.00234e-06
+      orientation: 
+        x: 1.00138e-07
+        y: -3.89112e-07
+        z: -0.667068
+        w: -0.744997
+  poses[82]: 
+    header: 
+      seq: 13944
+      stamp: 279.066000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.063
+        y: 40.9331
+        z: -2.85149e-06
+      orientation: 
+        x: -1.27155e-06
+        y: 1.22204e-06
+        z: -0.667055
+        w: -0.745009
+  poses[83]: 
+    header: 
+      seq: 13988
+      stamp: 279.946000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.1749
+        y: 41.9426
+        z: -2.71833e-06
+      orientation: 
+        x: 1.36388e-08
+        y: -5.48242e-07
+        z: -0.667042
+        w: -0.74502
+  poses[84]: 
+    header: 
+      seq: 14033
+      stamp: 280.847000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.2864
+        y: 42.9476
+        z: -2.27939e-06
+      orientation: 
+        x: 1.15007e-07
+        y: -4.32804e-07
+        z: -0.667026
+        w: -0.745034
+  poses[85]: 
+    header: 
+      seq: 14079
+      stamp: 281.766000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.397
+        y: 43.9444
+        z: -5.2196e-06
+      orientation: 
+        x: 3.27604e-07
+        y: -5.49179e-07
+        z: -0.667014
+        w: -0.745045
+  poses[86]: 
+    header: 
+      seq: 14127
+      stamp: 282.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.5095
+        y: 44.9577
+        z: -4.74401e-06
+      orientation: 
+        x: 4.52868e-07
+        y: -7.11e-07
+        z: -0.666997
+        w: -0.74506
+  poses[87]: 
+    header: 
+      seq: 14176
+      stamp: 283.707000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.621
+        y: 45.9623
+        z: -2.55595e-06
+      orientation: 
+        x: 1.18669e-07
+        y: -4.30909e-07
+        z: -0.666984
+        w: -0.745072
+  poses[88]: 
+    header: 
+      seq: 14226
+      stamp: 284.706000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.7316
+        y: 46.9581
+        z: -2.81283e-06
+      orientation: 
+        x: 1.53041e-07
+        y: -5.76442e-07
+        z: -0.666968
+        w: -0.745086
+  poses[89]: 
+    header: 
+      seq: 14278
+      stamp: 285.746000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.8436
+        y: 47.9661
+        z: -2.0014e-06
+      orientation: 
+        x: 1.05585e-07
+        y: -3.95811e-07
+        z: -0.666954
+        w: -0.745099
+  poses[90]: 
+    header: 
+      seq: 14331
+      stamp: 286.807000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.9548
+        y: 48.9663
+        z: -7.05375e-06
+      orientation: 
+        x: 2.75716e-07
+        y: -1.28038e-06
+        z: -0.666937
+        w: -0.745114
+  poses[91]: 
+    header: 
+      seq: 14386
+      stamp: 287.906000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 58.067
+        y: 49.9749
+        z: -3.38603e-06
+      orientation: 
+        x: 2.89067e-07
+        y: -4.98321e-07
+        z: -0.666923
+        w: -0.745126
+  poses[92]: 
+    header: 
+      seq: 14442
+      stamp: 289.026000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 58.1781
+        y: 50.9741
+        z: -5.22278e-06
+      orientation: 
+        x: -4.9478e-07
+        y: -9.42674e-07
+        z: -0.666909
+        w: -0.74514
+  poses[93]: 
+    header: 
+      seq: 14500
+      stamp: 290.186000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 58.2882
+        y: 51.9805
+        z: -4.91493e-06
+      orientation: 
+        x: 9.27626e-07
+        y: -9.49333e-08
+        z: -0.667159
+        w: -0.744915
+  poses[94]: 
+    header: 
+      seq: 14559
+      stamp: 291.366000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 58.0734
+        y: 52.9599
+        z: -4.02525e-06
+      orientation: 
+        x: -1.04615e-06
+        y: -9.98853e-07
+        z: -0.705086
+        w: -0.709122
+  poses[95]: 
+    header: 
+      seq: 14623
+      stamp: 292.646000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 57.5253
+        y: 53.8019
+        z: 2.73096e-05
+      orientation: 
+        x: -1.63378e-06
+        y: 5.18083e-06
+        z: -0.766516
+        w: -0.642225
+  poses[96]: 
+    header: 
+      seq: 14883
+      stamp: 297.850000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 56.7784
+        y: 54.4669
+        z: 2.73651e-07
+      orientation: 
+        x: -2.1954e-07
+        y: -7.31266e-07
+        z: -0.827554
+        w: -0.561386
+  poses[97]: 
+    header: 
+      seq: 15172
+      stamp: 303.626000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 55.9073
+        y: 54.9704
+        z: 1.96698e-05
+      orientation: 
+        x: 2.81624e-06
+        y: 7.96932e-06
+        z: -0.880322
+        w: -0.474376
+  poses[98]: 
+    header: 
+      seq: 15221
+      stamp: 304.606000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 54.9559
+        y: 55.2833
+        z: 1.41283e-05
+      orientation: 
+        x: -1.95834e-06
+        y: 1.22318e-06
+        z: -0.924038
+        w: -0.3823
+  poses[99]: 
+    header: 
+      seq: 15259
+      stamp: 305.366000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 53.9409
+        y: 55.3832
+        z: 1.42462e-05
+      orientation: 
+        x: -2.10632e-06
+        y: 1.14108e-06
+        z: -0.959213
+        w: -0.282685
+  poses[100]: 
+    header: 
+      seq: 15291
+      stamp: 306.006000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 52.9269
+        y: 55.2678
+        z: 1.54411e-05
+      orientation: 
+        x: -2.47103e-06
+        y: 1.10087e-06
+        z: -0.983693
+        w: -0.179857
+  poses[101]: 
+    header: 
+      seq: 15319
+      stamp: 306.566000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 51.9707
+        y: 54.947
+        z: 1.53299e-05
+      orientation: 
+        x: -2.65929e-06
+        y: 1.05852e-06
+        z: -0.997089
+        w: -0.0762412
+  poses[102]: 
+    header: 
+      seq: 15345
+      stamp: 307.087000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 51.0851
+        y: 54.4223
+        z: 1.78018e-05
+      orientation: 
+        x: -2.98305e-06
+        y: 2.1541e-06
+        z: -0.999539
+        w: 0.0303761
+  poses[103]: 
+    header: 
+      seq: 15369
+      stamp: 307.566000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 50.3397
+        y: 53.732
+        z: 9.21323e-06
+      orientation: 
+        x: -1.48325e-06
+        y: 1.33578e-06
+        z: -0.990804
+        w: 0.135308
+  poses[104]: 
+    header: 
+      seq: 15392
+      stamp: 308.026000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 49.7431
+        y: 52.8796
+        z: 8.67704e-06
+      orientation: 
+        x: -1.77157e-06
+        y: 2.37038e-06
+        z: -0.970461
+        w: 0.241258
+  poses[105]: 
+    header: 
+      seq: 15413
+      stamp: 308.446000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 49.3525
+        y: 51.9526
+        z: 1.72362e-05
+      orientation: 
+        x: -3.11042e-06
+        y: 2.85692e-07
+        z: -0.940091
+        w: 0.340923
+  poses[106]: 
+    header: 
+      seq: 15434
+      stamp: 308.866000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 49.0498
+        y: 50.9535
+        z: 1.19729e-05
+      orientation: 
+        x: -1.70164e-06
+        y: -1.07491e-06
+        z: -0.905157
+        w: 0.425078
+  poses[107]: 
+    header: 
+      seq: 15454
+      stamp: 309.266000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 48.5993
+        y: 50.0421
+        z: 1.79082e-06
+      orientation: 
+        x: 2.57034e-07
+        y: -1.09177e-06
+        z: -0.889368
+        w: 0.457192
+  poses[108]: 
+    header: 
+      seq: 15473
+      stamp: 309.646000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 47.9154
+        y: 49.2782
+        z: -5.96172e-06
+      orientation: 
+        x: 1.40657e-06
+        y: -5.59156e-07
+        z: -0.897785
+        w: 0.440434
+  poses[109]: 
+    header: 
+      seq: 15491
+      stamp: 310.006000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 47.1389
+        y: 48.5902
+        z: -4.04521e-06
+      orientation: 
+        x: 8.71336e-07
+        y: -1.18263e-06
+        z: -0.910799
+        w: 0.41285
+  poses[110]: 
+    header: 
+      seq: 15508
+      stamp: 310.346000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 46.3333
+        y: 47.9591
+        z: -3.70481e-06
+      orientation: 
+        x: 8.49409e-07
+        y: -1.27737e-06
+        z: -0.922808
+        w: 0.385259
+  poses[111]: 
+    header: 
+      seq: 15524
+      stamp: 310.666000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 45.5005
+        y: 47.3836
+        z: -3.11175e-06
+      orientation: 
+        x: 7.52737e-07
+        y: -4.6449e-07
+        z: -0.933865
+        w: 0.357626
+  poses[112]: 
+    header: 
+      seq: 15540
+      stamp: 310.986000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 44.6017
+        y: 46.84
+        z: -1.35449e-06
+      orientation: 
+        x: 4.96751e-07
+        y: -3.48846e-07
+        z: -0.944464
+        w: 0.328615
+  poses[113]: 
+    header: 
+      seq: 15555
+      stamp: 311.286000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 43.7003
+        y: 46.367
+        z: -5.06814e-06
+      orientation: 
+        x: 1.14484e-06
+        y: -8.45281e-07
+        z: -0.953875
+        w: 0.300204
+  poses[114]: 
+    header: 
+      seq: 15570
+      stamp: 311.586000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 42.7369
+        y: 45.9343
+        z: -1.36362e-06
+      orientation: 
+        x: -5.47629e-07
+        y: -5.76435e-07
+        z: -0.962737
+        w: 0.27044
+  poses[115]: 
+    header: 
+      seq: 15584
+      stamp: 311.866000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 41.786
+        y: 45.575
+        z: -6.32197e-06
+      orientation: 
+        x: 3.1364e-07
+        y: -2.99119e-06
+        z: -0.970389
+        w: 0.241546
+  poses[116]: 
+    header: 
+      seq: 15598
+      stamp: 312.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 40.7873
+        y: 45.2654
+        z: -4.09428e-06
+      orientation: 
+        x: 1.08798e-06
+        y: -1.02996e-06
+        z: -0.977356
+        w: 0.2116
+  poses[117]: 
+    header: 
+      seq: 15612
+      stamp: 312.427000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 39.7396
+        y: 45.0111
+        z: -2.13659e-06
+      orientation: 
+        x: 7.32087e-07
+        y: -4.57832e-07
+        z: -0.983574
+        w: 0.180505
+  poses[118]: 
+    header: 
+      seq: 15625
+      stamp: 312.686000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 38.7362
+        y: 44.8321
+        z: -5.36851e-06
+      orientation: 
+        x: 1.14269e-06
+        y: -7.44128e-07
+        z: -0.988543
+        w: 0.150942
+  poses[119]: 
+    header: 
+      seq: 15638
+      stamp: 312.947000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 37.6915
+        y: 44.7109
+        z: -2.29815e-06
+      orientation: 
+        x: 6.01681e-07
+        y: -3.52107e-07
+        z: -0.992738
+        w: 0.120294
+  poses[120]: 
+    header: 
+      seq: 15651
+      stamp: 313.206000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 36.625
+        y: 44.6541
+        z: -2.64312e-06
+      orientation: 
+        x: 3.27483e-07
+        y: -1.95227e-06
+        z: -0.996026
+        w: 0.0890601
+  poses[121]: 
+    header: 
+      seq: 15663
+      stamp: 313.446000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 35.6137
+        y: 44.6622
+        z: -2.32373e-06
+      orientation: 
+        x: 8.47949e-07
+        y: -9.67093e-07
+        z: -0.998234
+        w: 0.0594027
+  poses[122]: 
+    header: 
+      seq: 15675
+      stamp: 313.686000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 34.58
+        y: 44.7327
+        z: -2.11051e-06
+      orientation: 
+        x: 7.05758e-07
+        y: -7.95646e-07
+        z: -0.99958
+        w: 0.0289637
+  poses[123]: 
+    header: 
+      seq: 15687
+      stamp: 313.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 33.541
+        y: 44.868
+        z: -2.18769e-06
+      orientation: 
+        x: 6.75485e-07
+        y: -2.82296e-07
+        z: -0.999998
+        w: -0.00183904
+  poses[124]: 
+    header: 
+      seq: 15699
+      stamp: 314.166000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 32.4881
+        y: 45.0724
+        z: 1.5966e-07
+      orientation: 
+        x: 4.08468e-07
+        y: 7.19115e-07
+        z: -0.999443
+        w: -0.0333675
+  poses[125]: 
+    header: 
+      seq: 15711
+      stamp: 314.406000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 31.4186
+        y: 45.2715
+        z: -1.49376e-06
+      orientation: 
+        x: 2.84863e-07
+        y: -1.08787e-06
+        z: -0.998633
+        w: -0.0522726
+  poses[126]: 
+    header: 
+      seq: 15722
+      stamp: 314.626000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 30.4112
+        y: 45.3774
+        z: -1.60467e-06
+      orientation: 
+        x: 2.60065e-07
+        y: -2.35368e-07
+        z: -0.998632
+        w: -0.0522902
+  poses[127]: 
+    header: 
+      seq: 15733
+      stamp: 314.846000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 29.3874
+        y: 45.4849
+        z: -2.84856e-06
+      orientation: 
+        x: -1.77307e-06
+        y: -1.93882e-08
+        z: -0.998632
+        w: -0.0522914
+  poses[128]: 
+    header: 
+      seq: 15744
+      stamp: 315.066000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 28.3476
+        y: 45.5941
+        z: -3.3363e-06
+      orientation: 
+        x: 1.8113e-07
+        y: -5.3271e-07
+        z: -0.998632
+        w: -0.0522945
+  poses[129]: 
+    header: 
+      seq: 15755
+      stamp: 315.286000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 27.287
+        y: 45.7055
+        z: -2.74933e-06
+      orientation: 
+        x: -1.79833e-06
+        y: -3.99541e-08
+        z: -0.998632
+        w: -0.0522983
+  poses[130]: 
+    header: 
+      seq: 15766
+      stamp: 315.506000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 26.2203
+        y: 45.8176
+        z: -2.81293e-06
+      orientation: 
+        x: -1.77961e-06
+        y: -2.05278e-08
+        z: -0.998631
+        w: -0.0523004
+  poses[131]: 
+    header: 
+      seq: 15777
+      stamp: 315.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 25.1333
+        y: 45.9318
+        z: -6.55641e-06
+      orientation: 
+        x: 1.03393e-06
+        y: -5.5175e-07
+        z: -0.998631
+        w: -0.0523038
+  poses[132]: 
+    header: 
+      seq: 15787
+      stamp: 315.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 24.1318
+        y: 46.037
+        z: -1.41097e-05
+      orientation: 
+        x: 2.55034e-06
+        y: -3.63522e-07
+        z: -0.998631
+        w: -0.0523065
+  poses[133]: 
+    header: 
+      seq: 15797
+      stamp: 316.126000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 23.1179
+        y: 46.1435
+        z: -7.08839e-06
+      orientation: 
+        x: 1.15712e-06
+        y: -6.51898e-07
+        z: -0.998631
+        w: -0.0523095
+  poses[134]: 
+    header: 
+      seq: 15807
+      stamp: 316.326000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 22.0916
+        y: 46.2513
+        z: -2.79129e-06
+      orientation: 
+        x: 5.00534e-07
+        y: -3.16358e-07
+        z: -0.998631
+        w: -0.0523125
+  poses[135]: 
+    header: 
+      seq: 15817
+      stamp: 316.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 21.053
+        y: 46.3605
+        z: -7.2226e-06
+      orientation: 
+        x: 1.07235e-06
+        y: -7.54227e-07
+        z: -0.998631
+        w: -0.0523171
+  poses[136]: 
+    header: 
+      seq: 15827
+      stamp: 316.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 20.0025
+        y: 46.4709
+        z: -7.63379e-06
+      orientation: 
+        x: 1.36181e-06
+        y: 2.1609e-07
+        z: -0.99863
+        w: -0.0523218
+  poses[137]: 
+    header: 
+      seq: 15837
+      stamp: 316.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 18.94
+        y: 46.5825
+        z: -3.04306e-06
+      orientation: 
+        x: 5.5641e-07
+        y: -1.33323e-07
+        z: -0.99863
+        w: -0.052324
+  poses[138]: 
+    header: 
+      seq: 15847
+      stamp: 317.126000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 17.8658
+        y: 46.6954
+        z: -3.09104e-06
+      orientation: 
+        x: 5.50471e-07
+        y: -1.34322e-07
+        z: -0.99863
+        w: -0.0523247
+  poses[139]: 
+    header: 
+      seq: 15857
+      stamp: 317.326000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 16.78
+        y: 46.8095
+        z: -3.9317e-06
+      orientation: 
+        x: 5.71604e-07
+        y: -1.04198e-07
+        z: -0.99863
+        w: -0.0523267
+  poses[140]: 
+    header: 
+      seq: 15867
+      stamp: 317.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 15.6827
+        y: 46.9248
+        z: -3.07791e-06
+      orientation: 
+        x: 5.62899e-07
+        y: -1.32824e-07
+        z: -0.99863
+        w: -0.0523283
+  poses[141]: 
+    header: 
+      seq: 15877
+      stamp: 317.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 14.5781
+        y: 47.0409
+        z: -3.21116e-06
+      orientation: 
+        x: 5.38109e-07
+        y: -2.48717e-07
+        z: -0.99863
+        w: -0.0523285
+  poses[142]: 
+    header: 
+      seq: 15887
+      stamp: 317.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 13.4819
+        y: 47.1561
+        z: -1.28428e-05
+      orientation: 
+        x: 2.3358e-06
+        y: -2.79564e-07
+        z: -0.99863
+        w: -0.0523308
+  poses[143]: 
+    header: 
+      seq: 15897
+      stamp: 318.126000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 12.3957
+        y: 47.2703
+        z: -2.01803e-06
+      orientation: 
+        x: 3.49097e-07
+        y: -1.95806e-07
+        z: -0.998629
+        w: -0.052337
+  poses[144]: 
+    header: 
+      seq: 15907
+      stamp: 318.326000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 11.314
+        y: 47.384
+        z: -2.82411e-06
+      orientation: 
+        x: 4.8917e-07
+        y: -1.36175e-07
+        z: -0.998629
+        w: -0.0523386
+  poses[145]: 
+    header: 
+      seq: 15917
+      stamp: 318.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 10.253
+        y: 47.4956
+        z: -2.79622e-06
+      orientation: 
+        x: 4.83428e-07
+        y: -1.37818e-07
+        z: -0.99863
+        w: -0.0523357
+  poses[146]: 
+    header: 
+      seq: 15927
+      stamp: 318.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 9.19646
+        y: 47.6066
+        z: -2.85012e-06
+      orientation: 
+        x: 5.00595e-07
+        y: -1.42362e-07
+        z: -0.99863
+        w: -0.0523327
+  poses[147]: 
+    header: 
+      seq: 15937
+      stamp: 318.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 8.14985
+        y: 47.7166
+        z: -2.65455e-06
+      orientation: 
+        x: -1.79905e-06
+        y: -3.76021e-08
+        z: -0.99863
+        w: -0.0523296
+  poses[148]: 
+    header: 
+      seq: 15947
+      stamp: 319.126000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 7.11314
+        y: 47.8255
+        z: -7.40798e-06
+      orientation: 
+        x: -9.09073e-07
+        y: -1.83353e-06
+        z: -0.99863
+        w: -0.0523257
+  poses[149]: 
+    header: 
+      seq: 15957
+      stamp: 319.326000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 6.08633
+        y: 47.9334
+        z: -2.96879e-06
+      orientation: 
+        x: 4.86487e-07
+        y: -1.22423e-07
+        z: -0.99863
+        w: -0.0523232
+  poses[150]: 
+    header: 
+      seq: 15967
+      stamp: 319.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 5.06435
+        y: 48.0408
+        z: -3.00922e-06
+      orientation: 
+        x: 5.41297e-07
+        y: -1.34814e-07
+        z: -0.99863
+        w: -0.0523202
+  poses[151]: 
+    header: 
+      seq: 15977
+      stamp: 319.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 4.06238
+        y: 48.1461
+        z: -2.99916e-06
+      orientation: 
+        x: 5.3919e-07
+        y: -1.35425e-07
+        z: -0.998631
+        w: -0.0523173
+  poses[152]: 
+    header: 
+      seq: 15987
+      stamp: 319.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 3.06523
+        y: 48.2508
+        z: -2.75194e-06
+      orientation: 
+        x: -1.77055e-06
+        y: -3.07528e-08
+        z: -0.998631
+        w: -0.0523143
+  poses[153]: 
+    header: 
+      seq: 15998
+      stamp: 320.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 1.97978
+        y: 48.3649
+        z: -3.29609e-06
+      orientation: 
+        x: 5.42179e-07
+        y: -1.39859e-07
+        z: -0.998631
+        w: -0.0523111
+  poses[154]: 
+    header: 
+      seq: 16009
+      stamp: 320.366000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: 0.906277
+        y: 48.4776
+        z: -2.86357e-06
+      orientation: 
+        x: 5.04944e-07
+        y: -1.23638e-07
+        z: -0.998631
+        w: -0.0523079
+  poses[155]: 
+    header: 
+      seq: 16020
+      stamp: 320.586000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -0.155279
+        y: 48.5892
+        z: -2.9559e-06
+      orientation: 
+        x: 3.37251e-07
+        y: 4.53412e-07
+        z: -0.998631
+        w: -0.0523046
+  poses[156]: 
+    header: 
+      seq: 16031
+      stamp: 320.806000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -1.20489
+        y: 48.6994
+        z: -3.60731e-06
+      orientation: 
+        x: 5.33272e-07
+        y: -7.40822e-08
+        z: -0.998631
+        w: -0.0523016
+  poses[157]: 
+    header: 
+      seq: 16042
+      stamp: 321.026000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -2.24726
+        y: 48.8089
+        z: -2.88313e-06
+      orientation: 
+        x: 5.03801e-07
+        y: -1.46478e-07
+        z: -0.998631
+        w: -0.0522985
+  poses[158]: 
+    header: 
+      seq: 16053
+      stamp: 321.246000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -3.26832
+        y: 48.9161
+        z: -2.84661e-06
+      orientation: 
+        x: 5.02992e-07
+        y: -1.40954e-07
+        z: -0.998632
+        w: -0.0522952
+  poses[159]: 
+    header: 
+      seq: 16064
+      stamp: 321.466000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -4.28222
+        y: 49.0226
+        z: -2.57361e-06
+      orientation: 
+        x: -1.80768e-06
+        y: -3.16776e-08
+        z: -0.998632
+        w: -0.0522919
+  poses[160]: 
+    header: 
+      seq: 16075
+      stamp: 321.686000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -5.28443
+        y: 49.1278
+        z: -3.11509e-06
+      orientation: 
+        x: 5.04296e-07
+        y: -1.38341e-07
+        z: -0.998632
+        w: -0.0522887
+  poses[161]: 
+    header: 
+      seq: 16087
+      stamp: 321.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -6.36906
+        y: 49.2417
+        z: -2.97213e-06
+      orientation: 
+        x: 5.28107e-07
+        y: -1.37418e-07
+        z: -0.998632
+        w: -0.052285
+  poses[162]: 
+    header: 
+      seq: 16099
+      stamp: 322.166000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -7.4312
+        y: 49.3532
+        z: -3.03849e-06
+      orientation: 
+        x: 5.40666e-07
+        y: -1.38622e-07
+        z: -0.998632
+        w: -0.0522814
+  poses[163]: 
+    header: 
+      seq: 16111
+      stamp: 322.406000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -8.48448
+        y: 49.4638
+        z: -2.80665e-06
+      orientation: 
+        x: -1.76392e-06
+        y: -3.35362e-08
+        z: -0.998633
+        w: -0.0522777
+  poses[164]: 
+    header: 
+      seq: 16123
+      stamp: 322.646000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -9.52461
+        y: 49.573
+        z: -3.31155e-06
+      orientation: 
+        x: 5.43712e-07
+        y: -1.40887e-07
+        z: -0.998633
+        w: -0.0522742
+  poses[165]: 
+    header: 
+      seq: 16135
+      stamp: 322.886000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -10.5518
+        y: 49.6808
+        z: -2.86355e-06
+      orientation: 
+        x: 5.05419e-07
+        y: -1.23674e-07
+        z: -0.998633
+        w: -0.0522708
+  poses[166]: 
+    header: 
+      seq: 16147
+      stamp: 323.126000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -11.5704
+        y: 49.7877
+        z: -3.1427e-06
+      orientation: 
+        x: 5.00977e-07
+        y: -1.42015e-07
+        z: -0.998633
+        w: -0.0522677
+  poses[167]: 
+    header: 
+      seq: 16159
+      stamp: 323.366000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -12.5721
+        y: 49.8929
+        z: -2.82316e-06
+      orientation: 
+        x: 4.89676e-07
+        y: -1.36015e-07
+        z: -0.998633
+        w: -0.0522643
+  poses[168]: 
+    header: 
+      seq: 16172
+      stamp: 323.626000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -13.6392
+        y: 50.0049
+        z: -2.94107e-06
+      orientation: 
+        x: 5.12111e-07
+        y: -1.35666e-07
+        z: -0.998633
+        w: -0.0522604
+  poses[169]: 
+    header: 
+      seq: 16185
+      stamp: 323.886000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -14.6962
+        y: 50.1158
+        z: -2.7535e-06
+      orientation: 
+        x: 4.77013e-07
+        y: -1.31398e-07
+        z: -0.998634
+        w: -0.0522581
+  poses[170]: 
+    header: 
+      seq: 16198
+      stamp: 324.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -15.739
+        y: 50.2253
+        z: -4.93331e-06
+      orientation: 
+        x: 7.62176e-07
+        y: -2.86328e-07
+        z: -0.998634
+        w: -0.0522556
+  poses[171]: 
+    header: 
+      seq: 16211
+      stamp: 324.406000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -16.7679
+        y: 50.3332
+        z: -2.8681e-06
+      orientation: 
+        x: 5.06743e-07
+        y: -1.22748e-07
+        z: -0.998634
+        w: -0.0522514
+  poses[172]: 
+    header: 
+      seq: 16224
+      stamp: 324.666000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -17.7831
+        y: 50.4398
+        z: -3.01651e-06
+      orientation: 
+        x: 5.26537e-07
+        y: -1.37113e-07
+        z: -0.998634
+        w: -0.0522491
+  poses[173]: 
+    header: 
+      seq: 16237
+      stamp: 324.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -18.7849
+        y: 50.5449
+        z: -2.83856e-06
+      orientation: 
+        x: 4.93245e-07
+        y: -1.32947e-07
+        z: -0.998634
+        w: -0.0522469
+  poses[174]: 
+    header: 
+      seq: 16251
+      stamp: 325.206000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -19.8489
+        y: 50.6565
+        z: -2.68527e-06
+      orientation: 
+        x: 4.64431e-07
+        y: -1.30916e-07
+        z: -0.998634
+        w: -0.0522444
+  poses[175]: 
+    header: 
+      seq: 16265
+      stamp: 325.486000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -20.9014
+        y: 50.767
+        z: -4.92208e-06
+      orientation: 
+        x: 7.32823e-07
+        y: -4.46918e-07
+        z: -0.998634
+        w: -0.0522413
+  poses[176]: 
+    header: 
+      seq: 16279
+      stamp: 325.766000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -21.9317
+        y: 50.8751
+        z: -7.61653e-06
+      orientation: 
+        x: 1.82043e-06
+        y: 1.30634e-06
+        z: -0.998635
+        w: -0.0522371
+  poses[177]: 
+    header: 
+      seq: 16293
+      stamp: 326.046000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -22.9511
+        y: 50.982
+        z: -3.09075e-06
+      orientation: 
+        x: 5.40757e-07
+        y: -1.3872e-07
+        z: -0.998635
+        w: -0.0522346
+  poses[178]: 
+    header: 
+      seq: 16307
+      stamp: 326.326000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -23.956
+        y: 51.0874
+        z: -2.97254e-06
+      orientation: 
+        x: 5.18677e-07
+        y: -1.35914e-07
+        z: -0.998635
+        w: -0.0522322
+  poses[179]: 
+    header: 
+      seq: 16322
+      stamp: 326.626000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -25.0171
+        y: 51.1987
+        z: -2.88798e-06
+      orientation: 
+        x: 5.02894e-07
+        y: -1.33899e-07
+        z: -0.998635
+        w: -0.0522294
+  poses[180]: 
+    header: 
+      seq: 16337
+      stamp: 326.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -26.0622
+        y: 51.3084
+        z: -2.79567e-06
+      orientation: 
+        x: 4.85659e-07
+        y: -1.31841e-07
+        z: -0.998635
+        w: -0.0522266
+  poses[181]: 
+    header: 
+      seq: 16352
+      stamp: 327.226000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -27.0917
+        y: 51.4164
+        z: -2.69559e-06
+      orientation: 
+        x: 4.66846e-07
+        y: -1.30638e-07
+        z: -0.998635
+        w: -0.0522238
+  poses[182]: 
+    header: 
+      seq: 16367
+      stamp: 327.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -28.1057
+        y: 51.5227
+        z: -2.67266e-06
+      orientation: 
+        x: 4.54358e-07
+        y: -1.4228e-07
+        z: -0.998636
+        w: -0.0522211
+  poses[183]: 
+    header: 
+      seq: 16382
+      stamp: 327.826000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -29.1047
+        y: 51.6275
+        z: -3.14172e-06
+      orientation: 
+        x: 4.79601e-07
+        y: -2.92408e-07
+        z: -0.998636
+        w: -0.0522183
+  poses[184]: 
+    header: 
+      seq: 16398
+      stamp: 328.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -30.1539
+        y: 51.7375
+        z: -4.36426e-06
+      orientation: 
+        x: 1.88288e-07
+        y: -1.09296e-06
+        z: -0.998636
+        w: -0.0522147
+  poses[185]: 
+    header: 
+      seq: 16414
+      stamp: 328.466000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -31.1865
+        y: 51.8458
+        z: -8.64478e-06
+      orientation: 
+        x: 1.08526e-06
+        y: 2.36917e-06
+        z: -0.998636
+        w: -0.0522106
+  poses[186]: 
+    header: 
+      seq: 16430
+      stamp: 328.786000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -32.2029
+        y: 51.9524
+        z: -2.81448e-06
+      orientation: 
+        x: 4.88871e-07
+        y: -1.39176e-07
+        z: -0.998636
+        w: -0.052208
+  poses[187]: 
+    header: 
+      seq: 16446
+      stamp: 329.106000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -33.2034
+        y: 52.0572
+        z: -2.73606e-06
+      orientation: 
+        x: -1.77945e-06
+        y: -2.97254e-08
+        z: -0.998636
+        w: -0.0522042
+  poses[188]: 
+    header: 
+      seq: 16463
+      stamp: 329.446000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -34.2539
+        y: 52.1434
+        z: 3.08367e-06
+      orientation: 
+        x: -3.93397e-07
+        y: 3.32308e-07
+        z: -0.998851
+        w: -0.0479305
+  poses[189]: 
+    header: 
+      seq: 16480
+      stamp: 329.786000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -35.2788
+        y: 51.9565
+        z: -3.73294e-06
+      orientation: 
+        x: 3.45748e-07
+        y: 1.96948e-06
+        z: -0.999999
+        w: -0.00166625
+  poses[190]: 
+    header: 
+      seq: 16497
+      stamp: 330.126000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -36.2479
+        y: 51.5792
+        z: -3.03223e-06
+      orientation: 
+        x: 5.48626e-07
+        y: 2.10655e-07
+        z: -0.998264
+        w: 0.0588911
+  poses[191]: 
+    header: 
+      seq: 16514
+      stamp: 330.466000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -37.1475
+        y: 51.098
+        z: 1.56349e-06
+      orientation: 
+        x: -8.56552e-08
+        y: -5.7704e-07
+        z: -0.993007
+        w: 0.118059
+  poses[192]: 
+    header: 
+      seq: 16531
+      stamp: 330.806000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -37.9699
+        y: 50.5244
+        z: 3.50864e-06
+      orientation: 
+        x: -3.97594e-07
+        y: -7.00849e-07
+        z: -0.984421
+        w: 0.175829
+  poses[193]: 
+    header: 
+      seq: 16549
+      stamp: 331.166000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -38.7489
+        y: 49.8296
+        z: 4.99928e-06
+      orientation: 
+        x: -6.34825e-07
+        y: -7.94816e-07
+        z: -0.971914
+        w: 0.235338
+  poses[194]: 
+    header: 
+      seq: 16567
+      stamp: 331.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -39.427
+        y: 49.0595
+        z: 5.86215e-06
+      orientation: 
+        x: -7.6202e-07
+        y: -8.73859e-07
+        z: -0.956117
+        w: 0.292984
+  poses[195]: 
+    header: 
+      seq: 16585
+      stamp: 331.886000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -39.9994
+        y: 48.2289
+        z: 5.9504e-06
+      orientation: 
+        x: -7.52923e-07
+        y: -9.20892e-07
+        z: -0.937261
+        w: 0.348629
+  poses[196]: 
+    header: 
+      seq: 16604
+      stamp: 332.266000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -40.4859
+        y: 47.3028
+        z: 5.27747e-06
+      orientation: 
+        x: -6.12573e-07
+        y: -9.15989e-07
+        z: -0.914286
+        w: 0.405069
+  poses[197]: 
+    header: 
+      seq: 16623
+      stamp: 332.646000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -40.8506
+        y: 46.3422
+        z: 4.19571e-06
+      orientation: 
+        x: -4.07948e-07
+        y: -8.59556e-07
+        z: -0.888415
+        w: 0.459041
+  poses[198]: 
+    header: 
+      seq: 16642
+      stamp: 333.026000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.0946
+        y: 45.3629
+        z: 3.13297e-06
+      orientation: 
+        x: -2.14472e-07
+        y: -7.7646e-07
+        z: -0.859904
+        w: 0.510455
+  poses[199]: 
+    header: 
+      seq: 16662
+      stamp: 333.426000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2243
+        y: 44.3279
+        z: 2.29768e-06
+      orientation: 
+        x: -6.68628e-08
+        y: -6.8783e-07
+        z: -0.827315
+        w: 0.561739
+  poses[200]: 
+    header: 
+      seq: 16682
+      stamp: 333.827000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2288
+        y: 43.3015
+        z: 1.24551e-06
+      orientation: 
+        x: -8.72031e-07
+        y: 4.8367e-07
+        z: -0.792299
+        w: 0.610133
+  poses[201]: 
+    header: 
+      seq: 16703
+      stamp: 334.246000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2586
+        y: 42.2662
+        z: -3.55738e-06
+      orientation: 
+        x: 4.23255e-07
+        y: 3.61596e-07
+        z: -0.769439
+        w: 0.63872
+  poses[202]: 
+    header: 
+      seq: 16724
+      stamp: 334.666000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2564
+        y: 41.2538
+        z: -7.03816e-07
+      orientation: 
+        x: -9.17221e-08
+        y: 2.55838e-07
+        z: -0.749971
+        w: 0.661471
+  poses[203]: 
+    header: 
+      seq: 16746
+      stamp: 335.106000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1915
+        y: 40.2203
+        z: -4.175e-06
+      orientation: 
+        x: 3.29214e-08
+        y: 1.14972e-06
+        z: -0.729357
+        w: 0.684133
+  poses[204]: 
+    header: 
+      seq: 16768
+      stamp: 335.546000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.0844
+        y: 39.2167
+        z: -1.59054e-06
+      orientation: 
+        x: 3.93706e-07
+        y: -2.09663e-07
+        z: -0.710785
+        w: 0.70341
+  poses[205]: 
+    header: 
+      seq: 16791
+      stamp: 336.006000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.0896
+        y: 38.1898
+        z: -5.39581e-06
+      orientation: 
+        x: 8.76374e-07
+        y: -6.69313e-07
+        z: -0.710236
+        w: 0.703963
+  poses[206]: 
+    header: 
+      seq: 16814
+      stamp: 336.466000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.0977
+        y: 37.1838
+        z: -7.13101e-06
+      orientation: 
+        x: 3.23969e-07
+        y: 1.97519e-06
+        z: -0.710142
+        w: 0.704058
+  poses[207]: 
+    header: 
+      seq: 16838
+      stamp: 336.946000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1057
+        y: 36.1559
+        z: -4.26221e-06
+      orientation: 
+        x: 8.38351e-07
+        y: -4.63059e-07
+        z: -0.710047
+        w: 0.704154
+  poses[208]: 
+    header: 
+      seq: 16862
+      stamp: 337.426000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1132
+        y: 35.1497
+        z: -4.6581e-06
+      orientation: 
+        x: 9.47128e-07
+        y: -4.90754e-07
+        z: -0.709955
+        w: 0.704248
+  poses[209]: 
+    header: 
+      seq: 16887
+      stamp: 337.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1207
+        y: 34.1239
+        z: -4.658e-06
+      orientation: 
+        x: 9.47343e-07
+        y: -4.90721e-07
+        z: -0.70986
+        w: 0.704343
+  poses[210]: 
+    header: 
+      seq: 16912
+      stamp: 338.426000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1277
+        y: 33.1203
+        z: -4.65791e-06
+      orientation: 
+        x: 9.47552e-07
+        y: -4.90688e-07
+        z: -0.709768
+        w: 0.704436
+  poses[211]: 
+    header: 
+      seq: 16938
+      stamp: 338.946000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1346
+        y: 32.0993
+        z: -4.26133e-06
+      orientation: 
+        x: 8.38915e-07
+        y: -4.63451e-07
+        z: -0.709674
+        w: 0.70453
+  poses[212]: 
+    header: 
+      seq: 16965
+      stamp: 339.486000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1413
+        y: 31.063
+        z: -4.63452e-06
+      orientation: 
+        x: -7.79576e-07
+        y: -1.00116e-06
+        z: -0.70958
+        w: 0.704625
+  poses[213]: 
+    header: 
+      seq: 16992
+      stamp: 340.026000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1475
+        y: 30.0503
+        z: -4.65764e-06
+      orientation: 
+        x: 9.4818e-07
+        y: -4.90583e-07
+        z: -0.709488
+        w: 0.704717
+  poses[214]: 
+    header: 
+      seq: 17020
+      stamp: 340.586000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1536
+        y: 29.0241
+        z: -4.63401e-06
+      orientation: 
+        x: -7.79276e-07
+        y: -1.00203e-06
+        z: -0.709395
+        w: 0.704811
+  poses[215]: 
+    header: 
+      seq: 17048
+      stamp: 341.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1593
+        y: 28.0217
+        z: -4.2605e-06
+      orientation: 
+        x: 8.39463e-07
+        y: -4.63818e-07
+        z: -0.709305
+        w: 0.704901
+  poses[216]: 
+    header: 
+      seq: 17077
+      stamp: 341.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1649
+        y: 27.0077
+        z: -4.6574e-06
+      orientation: 
+        x: 9.48784e-07
+        y: -4.90473e-07
+        z: -0.709215
+        w: 0.704992
+  poses[217]: 
+    header: 
+      seq: 17107
+      stamp: 342.326000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1702
+        y: 25.9838
+        z: -4.65732e-06
+      orientation: 
+        x: 9.48983e-07
+        y: -4.90434e-07
+        z: -0.709124
+        w: 0.705084
+  poses[218]: 
+    header: 
+      seq: 17137
+      stamp: 342.927000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1751
+        y: 24.9829
+        z: -5.3212e-06
+      orientation: 
+        x: 5.47454e-07
+        y: 3.23612e-07
+        z: -0.709035
+        w: 0.705173
+  poses[219]: 
+    header: 
+      seq: 17168
+      stamp: 343.546000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1797
+        y: 23.9768
+        z: -3.14183e-06
+      orientation: 
+        x: 3.73136e-07
+        y: 2.29492e-07
+        z: -0.708932
+        w: 0.705277
+  poses[220]: 
+    header: 
+      seq: 17200
+      stamp: 344.187000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.184
+        y: 22.9606
+        z: -3.81606e-06
+      orientation: 
+        x: -6.15558e-07
+        y: -8.71267e-07
+        z: -0.708825
+        w: 0.705384
+  poses[221]: 
+    header: 
+      seq: 17233
+      stamp: 344.846000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.188
+        y: 21.9422
+        z: -1.46882e-05
+      orientation: 
+        x: 2.16061e-06
+        y: 1.76534e-06
+        z: -0.708721
+        w: 0.705489
+  poses[222]: 
+    header: 
+      seq: 17267
+      stamp: 345.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1918
+        y: 20.918
+        z: -7.43479e-06
+      orientation: 
+        x: 8.67423e-07
+        y: 5.30752e-07
+        z: -0.708619
+        w: 0.705592
+  poses[223]: 
+    header: 
+      seq: 17302
+      stamp: 346.226000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1953
+        y: 19.891
+        z: -3.01676e-06
+      orientation: 
+        x: 9.61932e-07
+        y: -1.14279e-06
+        z: -0.708514
+        w: 0.705697
+  poses[224]: 
+    header: 
+      seq: 17337
+      stamp: 346.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.1984
+        y: 18.8906
+        z: -7.32582e-06
+      orientation: 
+        x: 9.35176e-07
+        y: 3.76914e-07
+        z: -0.708413
+        w: 0.705798
+  poses[225]: 
+    header: 
+      seq: 17373
+      stamp: 347.646000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2012
+        y: 17.8882
+        z: -3.31406e-06
+      orientation: 
+        x: 4.70767e-07
+        y: 3.13065e-07
+        z: -0.70831
+        w: 0.705901
+  poses[226]: 
+    header: 
+      seq: 17410
+      stamp: 348.386000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2038
+        y: 16.8849
+        z: -3.81864e-06
+      orientation: 
+        x: 9.9065e-07
+        y: -1.12557e-06
+        z: -0.708216
+        w: 0.705996
+  poses[227]: 
+    header: 
+      seq: 17448
+      stamp: 349.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2061
+        y: 15.8816
+        z: -3.15351e-06
+      orientation: 
+        x: 5.48355e-07
+        y: 2.12231e-07
+        z: -0.70812
+        w: 0.706092
+  poses[228]: 
+    header: 
+      seq: 17487
+      stamp: 349.926000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2081
+        y: 14.8794
+        z: -5.98871e-06
+      orientation: 
+        x: 6.57967e-07
+        y: 3.78666e-07
+        z: -0.708023
+        w: 0.706189
+  poses[229]: 
+    header: 
+      seq: 17527
+      stamp: 350.726000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2099
+        y: 13.879
+        z: -2.7144e-06
+      orientation: 
+        x: 6.02453e-07
+        y: 8.5901e-08
+        z: -0.70793
+        w: 0.706282
+  poses[230]: 
+    header: 
+      seq: 17569
+      stamp: 351.566000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2114
+        y: 12.8571
+        z: -1.46802e-05
+      orientation: 
+        x: 2.1502e-06
+        y: 1.75901e-06
+        z: -0.707833
+        w: 0.70638
+  poses[231]: 
+    header: 
+      seq: 17612
+      stamp: 352.426000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2126
+        y: 11.8399
+        z: -2.723e-06
+      orientation: 
+        x: 6.01934e-07
+        y: 1.45578e-07
+        z: -0.707736
+        w: 0.706477
+  poses[232]: 
+    header: 
+      seq: 17656
+      stamp: 353.306000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2136
+        y: 10.8278
+        z: -2.86035e-06
+      orientation: 
+        x: 4.32675e-07
+        y: 2.93617e-07
+        z: -0.707641
+        w: 0.706572
+  poses[233]: 
+    header: 
+      seq: 17701
+      stamp: 354.207000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2143
+        y: 9.8201
+        z: -3.25048e-06
+      orientation: 
+        x: 4.62038e-07
+        y: 2.89366e-07
+        z: -0.707549
+        w: 0.706664
+  poses[234]: 
+    header: 
+      seq: 17748
+      stamp: 355.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2147
+        y: 8.79917
+        z: -7.57154e-06
+      orientation: 
+        x: 4.83759e-08
+        y: 2.20698e-06
+        z: -0.707454
+        w: 0.706759
+  poses[235]: 
+    header: 
+      seq: 17796
+      stamp: 356.106000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2149
+        y: 7.78458
+        z: -2.85984e-06
+      orientation: 
+        x: 4.46133e-07
+        y: 2.55968e-07
+        z: -0.70736
+        w: 0.706854
+  poses[236]: 
+    header: 
+      seq: 17845
+      stamp: 357.086000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2148
+        y: 6.77762
+        z: -3.54962e-06
+      orientation: 
+        x: 6.90491e-07
+        y: 1.67605e-07
+        z: -0.707266
+        w: 0.706947
+  poses[237]: 
+    header: 
+      seq: 17896
+      stamp: 358.106000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2143
+        y: 5.75767
+        z: -2.88201e-06
+      orientation: 
+        x: 4.31337e-07
+        y: 1.92659e-07
+        z: -0.707167
+        w: 0.707046
+  poses[238]: 
+    header: 
+      seq: 17948
+      stamp: 359.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2137
+        y: 4.74755
+        z: -3.0657e-06
+      orientation: 
+        x: 5.23502e-07
+        y: 2.04142e-07
+        z: -0.70707
+        w: 0.707144
+  poses[239]: 
+    header: 
+      seq: 18001
+      stamp: 360.206000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.2127
+        y: 3.74708
+        z: -9.02916e-06
+      orientation: 
+        x: 1.85136e-06
+        y: -2.19781e-06
+        z: -0.706973
+        w: 0.70724
+  poses[240]: 
+    header: 
+      seq: 18056
+      stamp: 361.306000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -41.0733
+        y: 2.75385
+        z: 6.58478e-07
+      orientation: 
+        x: -3.85357e-07
+        y: 1.41329e-07
+        z: -0.689348
+        w: 0.72443
+  poses[241]: 
+    header: 
+      seq: 18117
+      stamp: 362.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -40.4209
+        y: 1.98028
+        z: 1.9288e-05
+      orientation: 
+        x: -3.27707e-06
+        y: -1.63206e-06
+        z: -0.613567
+        w: 0.789642
+  poses[242]: 
+    header: 
+      seq: 18249
+      stamp: 365.166000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -39.6279
+        y: 1.3704
+        z: 3.25705e-05
+      orientation: 
+        x: -3.65732e-06
+        y: -4.07447e-06
+        z: -0.53078
+        w: 0.847509
+  poses[243]: 
+    header: 
+      seq: 18418
+      stamp: 368.546000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -38.7276
+        y: 0.932729
+        z: 3.00913e-05
+      orientation: 
+        x: -1.45388e-06
+        y: -4.91025e-06
+        z: -0.442496
+        w: 0.89677
+  poses[244]: 
+    header: 
+      seq: 18503
+      stamp: 370.246000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -37.7573
+        y: 0.67639
+        z: 2.69078e-05
+      orientation: 
+        x: -6.01187e-06
+        y: -2.27806e-06
+        z: -0.350493
+        w: 0.936565
+  poses[245]: 
+    header: 
+      seq: 18691
+      stamp: 374.006000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -36.7551
+        y: 0.624334
+        z: 2.28611e-05
+      orientation: 
+        x: -3.73216e-06
+        y: -2.94534e-06
+        z: -0.254287
+        w: 0.967129
+  poses[246]: 
+    header: 
+      seq: 18942
+      stamp: 379.027000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -35.7608
+        y: 0.781097
+        z: 2.81648e-06
+      orientation: 
+        x: -3.98489e-07
+        y: -8.73348e-07
+        z: -0.154181
+        w: 0.988043
+  poses[247]: 
+    header: 
+      seq: 19001
+      stamp: 380.206000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -34.8273
+        y: 1.14029
+        z: 1.41934e-05
+      orientation: 
+        x: -2.57359e-06
+        y: -1.79312e-06
+        z: -0.0520737
+        w: 0.998643
+  poses[248]: 
+    header: 
+      seq: 19068
+      stamp: 381.546000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -33.9845
+        y: 1.68635
+        z: 2.70285e-05
+      orientation: 
+        x: -6.16924e-07
+        y: -5.27738e-06
+        z: 0.0509731
+        w: 0.9987
+  poses[249]: 
+    header: 
+      seq: 19464
+      stamp: 389.466000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -33.1357
+        y: 2.21855
+        z: -2.09286e-06
+      orientation: 
+        x: 8.52247e-08
+        y: 3.56229e-07
+        z: 0.117238
+        w: 0.993104
+  poses[250]: 
+    header: 
+      seq: 19532
+      stamp: 390.826000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -32.1384
+        y: 2.08059
+        z: -5.43163e-07
+      orientation: 
+        x: 4.13336e-07
+        y: 6.61447e-08
+        z: 0.0588629
+        w: 0.998266
+  poses[251]: 
+    header: 
+      seq: 19572
+      stamp: 391.626000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -31.1234
+        y: 1.97025
+        z: -1.41518e-05
+      orientation: 
+        x: 1.39629e-07
+        y: 2.64991e-06
+        z: 0.0247803
+        w: 0.999693
+  poses[252]: 
+    header: 
+      seq: 19603
+      stamp: 392.246000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -30.1067
+        y: 2.02063
+        z: -7.55005e-06
+      orientation: 
+        x: 5.81761e-07
+        y: 1.22929e-06
+        z: 0.0247684
+        w: 0.999693
+  poses[253]: 
+    header: 
+      seq: 19629
+      stamp: 392.766000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -29.1028
+        y: 2.07037
+        z: -4.46086e-06
+      orientation: 
+        x: 9.84054e-07
+        y: 2.97916e-07
+        z: 0.0247579
+        w: 0.999693
+  poses[254]: 
+    header: 
+      seq: 19652
+      stamp: 393.226000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -28.1033
+        y: 2.11985
+        z: -3.02076e-06
+      orientation: 
+        x: 9.64906e-08
+        y: 5.55384e-07
+        z: 0.0247481
+        w: 0.999694
+  poses[255]: 
+    header: 
+      seq: 19673
+      stamp: 393.646000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -27.102
+        y: 2.16944
+        z: -8.7255e-06
+      orientation: 
+        x: -2.37084e-06
+        y: 9.24446e-07
+        z: 0.0247467
+        w: 0.999694
+  poses[256]: 
+    header: 
+      seq: 19693
+      stamp: 394.046000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -26.0715
+        y: 2.22046
+        z: -2.43294e-06
+      orientation: 
+        x: 2.07259e-07
+        y: 4.44138e-07
+        z: 0.0247442
+        w: 0.999694
+  poses[257]: 
+    header: 
+      seq: 19712
+      stamp: 394.427000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -25.0219
+        y: 2.27243
+        z: -4.24483e-06
+      orientation: 
+        x: 3.71415e-07
+        y: 6.82732e-07
+        z: 0.0247415
+        w: 0.999694
+  poses[258]: 
+    header: 
+      seq: 19730
+      stamp: 394.787000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -23.9704
+        y: 2.32449
+        z: -2.82583e-06
+      orientation: 
+        x: 3.28291e-07
+        y: -1.43377e-06
+        z: 0.0247406
+        w: 0.999694
+  poses[259]: 
+    header: 
+      seq: 19747
+      stamp: 395.127000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -22.9253
+        y: 2.37622
+        z: -2.71191e-06
+      orientation: 
+        x: 2.41673e-07
+        y: 5.08356e-07
+        z: 0.0247364
+        w: 0.999694
+  poses[260]: 
+    header: 
+      seq: 19763
+      stamp: 395.446000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -21.8996
+        y: 2.42696
+        z: -3.72779e-06
+      orientation: 
+        x: 1.71571e-07
+        y: 5.07346e-07
+        z: 0.0247283
+        w: 0.999694
+  poses[261]: 
+    header: 
+      seq: 19778
+      stamp: 395.746000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -20.896
+        y: 2.47662
+        z: -6.95849e-06
+      orientation: 
+        x: -9.84665e-07
+        y: 1.46811e-06
+        z: 0.024724
+        w: 0.999694
+  poses[262]: 
+    header: 
+      seq: 19793
+      stamp: 396.046000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -19.8546
+        y: 2.50103
+        z: 4.6132e-06
+      orientation: 
+        x: 3.44546e-07
+        y: -6.93877e-07
+        z: 0.019899
+        w: 0.999802
+  poses[263]: 
+    header: 
+      seq: 19807
+      stamp: 396.326000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -18.8539
+        y: 2.36055
+        z: -1.85566e-06
+      orientation: 
+        x: 3.68036e-07
+        y: 5.57524e-07
+        z: -0.00883728
+        w: 0.999961
+  poses[264]: 
+    header: 
+      seq: 19821
+      stamp: 396.606000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -17.8338
+        y: 2.14857
+        z: -1.10924e-06
+      orientation: 
+        x: 5.81947e-07
+        y: 5.59025e-07
+        z: -0.0394667
+        w: 0.999221
+  poses[265]: 
+    header: 
+      seq: 19835
+      stamp: 396.886000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -16.7902
+        y: 1.91656
+        z: 3.55334e-06
+      orientation: 
+        x: 8.39559e-07
+        y: -5.13143e-07
+        z: -0.061975
+        w: 0.998078
+  poses[266]: 
+    header: 
+      seq: 19848
+      stamp: 397.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -15.7775
+        y: 1.78937
+        z: -2.06425e-06
+      orientation: 
+        x: 2.46377e-07
+        y: 3.8352e-07
+        z: -0.0621018
+        w: 0.99807
+  poses[267]: 
+    header: 
+      seq: 19861
+      stamp: 397.407000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -14.7429
+        y: 1.66012
+        z: -3.06647e-06
+      orientation: 
+        x: 2.03268e-07
+        y: 5.02411e-07
+        z: -0.062102
+        w: 0.99807
+  poses[268]: 
+    header: 
+      seq: 19874
+      stamp: 397.666000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -13.6873
+        y: 1.52824
+        z: -2.97188e-06
+      orientation: 
+        x: 1.39765e-07
+        y: 5.28063e-07
+        z: -0.0621031
+        w: 0.99807
+  poses[269]: 
+    header: 
+      seq: 19886
+      stamp: 397.906000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -12.6872
+        y: 1.40329
+        z: -4.00379e-06
+      orientation: 
+        x: 4.77645e-07
+        y: -2.42455e-06
+        z: -0.0621055
+        w: 0.99807
+  poses[270]: 
+    header: 
+      seq: 19898
+      stamp: 398.146000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -11.6663
+        y: 1.27574
+        z: -3.37773e-06
+      orientation: 
+        x: 1.44422e-07
+        y: 5.60366e-07
+        z: -0.0621079
+        w: 0.998069
+  poses[271]: 
+    header: 
+      seq: 19910
+      stamp: 398.386000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -10.6249
+        y: 1.14561
+        z: -3.0792e-06
+      orientation: 
+        x: 1.3737e-07
+        y: 5.64658e-07
+        z: -0.0621117
+        w: 0.998069
+  poses[272]: 
+    header: 
+      seq: 19922
+      stamp: 398.626000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -9.56335
+        y: 1.01296
+        z: -3.24572e-06
+      orientation: 
+        x: 1.47165e-07
+        y: 5.24699e-07
+        z: -0.0621155
+        w: 0.998069
+  poses[273]: 
+    header: 
+      seq: 19934
+      stamp: 398.867000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -8.47733
+        y: 0.877252
+        z: -2.43716e-06
+      orientation: 
+        x: 1.42883e-07
+        y: 4.02901e-07
+        z: -0.0621167
+        w: 0.998069
+  poses[274]: 
+    header: 
+      seq: 19945
+      stamp: 399.086000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -7.47328
+        y: 0.751776
+        z: -2.79244e-06
+      orientation: 
+        x: -7.30066e-10
+        y: -1.7826e-06
+        z: -0.0621203
+        w: 0.998069
+  poses[275]: 
+    header: 
+      seq: 19956
+      stamp: 399.306000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -6.44372
+        y: 0.623102
+        z: -2.95124e-06
+      orientation: 
+        x: 1.29413e-07
+        y: 5.28882e-07
+        z: -0.0621227
+        w: 0.998069
+  poses[276]: 
+    header: 
+      seq: 19967
+      stamp: 399.526000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -5.40765
+        y: 0.493613
+        z: -3.09181e-06
+      orientation: 
+        x: 1.48331e-07
+        y: 5.48111e-07
+        z: -0.0621261
+        w: 0.998068
+  poses[277]: 
+    header: 
+      seq: 19978
+      stamp: 399.746000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -4.36823
+        y: 0.363716
+        z: -2.86714e-06
+      orientation: 
+        x: 1.87351e-08
+        y: -1.72297e-06
+        z: -0.0621225
+        w: 0.998069
+  poses[278]: 
+    header: 
+      seq: 19990
+      stamp: 399.987000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -3.28683
+        y: 0.228577
+        z: -2.92727e-06
+      orientation: 
+        x: 2.91735e-08
+        y: -1.62254e-06
+        z: -0.0621196
+        w: 0.998069
+  poses[279]: 
+    header: 
+      seq: 20004
+      stamp: 400.266000000
+      frame_id: front_axle
+    pose: 
+      position: 
+        x: -2.23544
+        y: 0.0971552
+        z: -2.79585e-06
+      orientation: 
+        x: 3.07787e-08
+        y: -1.35122e-06
+        z: -0.0621693
+        w: 0.998066

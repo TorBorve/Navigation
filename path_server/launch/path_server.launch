@@ -1,10 +1,11 @@
 <?xml version="1.0"?>
 <launch>
     <arg name="command" default="load" />
-    <arg name="filePath" default="$(find path_server)/paths/myPath.txt" />
+    <arg name="filePath" default="$(find path_server)/paths/loop.txt" />
     <arg name="pathTopic" default="path" />
     <arg name="odomTopic" default="odom" />
     <arg name="resolution" default="1.0" />
+    <arg name="odomFrame" default="odom" />
 
     <!-- launch path_server node with params -->
     <node pkg="path_server" type="path_server" name="path_server" output="screen">
@@ -13,5 +14,6 @@
         <param name="pathTopic" value="$(arg pathTopic)" />
         <param name="odomTopic" value="$(arg odomTopic)" />
         <param name="resolution" value="$(arg resolution)" />
+        <param name="odomFrame" value="$(arg odomFrame)" />
     </node>
 </launch>
