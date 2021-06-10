@@ -36,7 +36,7 @@ void Stanley::callbackOdom(const nav_msgs::Odometry::ConstPtr& msg){
     if (path_msg.poses.size() < 2){
         return;
     }
-    constexpr double Kp = -0.5;
+    constexpr double Kp = -0.7;
     unsigned int closest = utilities::closetPoint(msg->pose.pose.position, path_msg.poses);
     if (closest >= path_msg.poses.size()-1){
         closest = path_msg.poses.size() - 2;
@@ -47,7 +47,7 @@ void Stanley::callbackOdom(const nav_msgs::Odometry::ConstPtr& msg){
                                             path_msg.poses[closest+1].pose.position);
     double vel = utilities::velocity(*msg);
     double steeringAngle = headingError + atan(Kp*cte / (1 + vel));
-    ROS_INFO_STREAM("Steering angle: " << steeringAngle*180/M_PI << "[deg], closest: " << closest << ", cte: " << cte);
+    ROS_INFO_STREAM("Steering angle: " << steeringAngle*180/M_PI << "[deg], closest: " << closest << ", cte: " << cte << ", vel: " << vel);
     std_msgs::Float64 temp;
     temp.data = AUDIBOT_STEERING_RATIO * steeringAngle;
     steeringPub.publish(temp);
