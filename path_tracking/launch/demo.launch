@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<launch>
+    <!-- spawn audibot -->
+    <include file="$(find audibot_gazebo)/launch/audibot_robot.launch">
+        <arg name="start_x" value="0.0" />
+        <arg name="start_y" value="0.0" />
+        <arg name="start_z" value="0.0" />
+        <arg name="start_yaw" value="0.0" />
+        <arg name="pub_tf" value="true" />
+        <arg name="blue" value="true" />
+        <arg name="tf_freq" value="100.0" />
+    </include>
+
+    <!-- launch Gazebo -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch" />
+
+    <!-- launch path_server -->
+    <include file="$(find path_server)/launch/path_server.launch" >
+        <arg name="command" value="load" />
+        <arg name="filePath" value="$(find path_server)/paths/loop.txt" />
+        <arg name="pathTopic" value="path" />
+    </include>
+
+    <!-- launch path_tracking -->
+    <include file="$(find path_tracking)/launch/stanley.launch" >
+    </include>
+
+    <!-- start rviz -->
+    <node pkg="rviz" type="rviz" name="demo_rviz" args=" -d $(find path_tracking)/rviz/demo.rviz" />
+</launch>
