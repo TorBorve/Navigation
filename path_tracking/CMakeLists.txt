@@ -1,9 +1,14 @@
 cmake_minimum_required(VERSION 3.0.2)
 project(path_tracking)
 
-## Compile as C++11, supported in ROS Kinetic and newer
-# add_compile_options(-std=c++11)
+# set(CMAKE_BUILD_TYPE Debug)
 
+## Uncomment to set debug flag.
+# add_compile_definitions(CMAKE_CXX_FLAGS_DEBUG)
+
+## Compile as C++17, supported in ROS noetic
+add_compile_options(-std=c++17)
+ 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
