@@ -5,7 +5,6 @@
 using namespace std;
 
 int main(int argc, char** argv){
-    cout << "main.cpp\n";
     ros::init(argc, argv, "path_tracking");
     ros::NodeHandle pn{"~"};
 

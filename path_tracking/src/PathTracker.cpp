@@ -5,6 +5,14 @@
 
 #define AUDIBOT_STEERING_RATIO  17.3
 
+#ifdef CMAKE_CXX_FLAGS_DEBUG
+#define LOG_INFO(info) \
+    ROS_INFO_STREAM(info)
+#else
+#define LOG_INFO(info) ((void)0)
+#endif
+
+
 PathTracker::PathTracker(std::string throttleTopic, std::string brakeTopic,
                         std::string steeringTopic, std::string odomTopic,
                         std::string pathTopic)
@@ -16,6 +24,14 @@ PathTracker::PathTracker(std::string throttleTopic, std::string brakeTopic,
     steeringPub = nh.advertise<std_msgs::Float64>(steeringTopic, queueSize);
     odomSub = nh.subscribe(odomTopic, queueSize, &PathTracker::callbackOdom, this);
     pathSub = nh.subscribe(pathTopic, queueSize, &PathTracker::callbackPath, this);
+
+    while(ros::ok() && !ros::topic::waitForMessage<nav_msgs::Path>(pathTopic, ros::Duration{10.0})){
+        ROS_WARN_STREAM("Waiting for first path message");
+    }
+    while(ros::ok() && !ros::topic::waitForMessage<nav_msgs::Odometry>(odomTopic, ros::Duration{10.0})){
+        ROS_WARN_STREAM("Waiting for first odom message");
+    }
+    ROS_INFO_STREAM("PathTracker class initialized");
 }
 
 void PathTracker::callbackPath(const nav_msgs::Path::ConstPtr& msg){
@@ -47,7 +63,7 @@ void Stanley::callbackOdom(const nav_msgs::Odometry::ConstPtr& msg){
                                             path_msg.poses[closest+1].pose.position);
     double vel = utilities::velocity(*msg);
     double steeringAngle = headingError + atan(Kp*cte / (1 + vel));
-    ROS_INFO_STREAM("Steering angle: " << steeringAngle*180/M_PI << "[deg], closest: " << closest << ", cte: " << cte << ", vel: " << vel);
+    LOG_INFO("Steering angle: " << steeringAngle*180/M_PI << "[deg], closest: " << closest << ", cte: " << cte << ", vel: " << vel);
     std_msgs::Float64 temp;
     temp.data = AUDIBOT_STEERING_RATIO * steeringAngle;
     steeringPub.publish(temp);
@@ -58,6 +74,6 @@ void Stanley::callbackOdom(const nav_msgs::Odometry::ConstPtr& msg){
 double Stanley::yawError(const geometry_msgs::Quaternion& quat, unsigned int closest){
     double carYaw = utilities::getYaw(quat);
     double pathYaw = utilities::getPathYaw(closest, path_msg.poses);
-    ROS_INFO_STREAM("car: " << 180/M_PI*carYaw << ", path: " << 180/M_PI*pathYaw);
+    LOG_INFO("car: " << 180/M_PI*carYaw << ", path: " << 180/M_PI*pathYaw);
     return utilities::validAngle(pathYaw - carYaw);
 }
