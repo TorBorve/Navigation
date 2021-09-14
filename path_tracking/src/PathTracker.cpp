@@ -67,7 +67,7 @@ void Stanley::callbackOdom(const nav_msgs::Odometry::ConstPtr& msg){
     std_msgs::Float64 temp;
     temp.data = AUDIBOT_STEERING_RATIO * steeringAngle;
     steeringPub.publish(temp);
-    temp.data = 0.1;
+    temp.data = 0.20;
     throttlePub.publish(temp);
 }
 
